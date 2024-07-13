@@ -19,19 +19,19 @@ function Header() {
   const [isShrink, setIsShrink] = useState(false);
 
   useEffect(() => {
-    const fullText = t('Hi, I am Yucheng Chu.'); // 使用t函数获取当前语言的文本
-    setTypedText(''); // 每次fullText变化时重置文本，开始新的打印过程
+    const fullText = t('Hi, I am Yucheng Chu.'); // 使用t函數獲取當前語言的文本
+    setTypedText(''); // 每次fullText變化時重置文本，開始新的打印過程
 
-    const timeouts = []; // 用于存储所有setTimeout的ID
+    const timeouts = []; // 用於存儲所有setTimeout的ID
     for (let i = 0; i < fullText.length; i++) {
       const timeoutId = setTimeout(() => {
         setTypedText(prevText => prevText + fullText.charAt(i));
-      }, i * 150); // 每个字母打印的延迟逐渐增加
+      }, i * 150); // 每个字母打印的延遲逐漸增加
       timeouts.push(timeoutId);
     }
 
-    return () => timeouts.forEach(clearTimeout); // 清理定时器
-  }, [t, i18n.language]); // 当语言变化时重新触发效果
+    return () => timeouts.forEach(clearTimeout); // 清理定時器
+  }, [t, i18n.language]); // 當前言變化時重新觸發效果
 
   useEffect(() => {
     const handleScroll = () => {
