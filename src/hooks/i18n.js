@@ -8,7 +8,15 @@ i18n
     resources: {
       en: {
         translation: {
-          // WorkSection
+          // IntroductionSection
+          introduction: `
+            Graduating from the Queensland University of Technology in Australia provided me with practical internship experience and the development of bilingual proficiency. 
+            
+            Enjoying the process of building meaningful connections and making new friends, my overseas experiences, where time with loved ones was limited, have instilled in me a deep appreciation for every moment. 
+            
+            With a mindset of courage and continuous learning, I face challenges head-on without hesitation.
+          `,
+          // JobSection
           chiperTitle: 'Software Engineer',
           chiperFirm: 'Chiper Technology',
           chiperContent:
@@ -44,12 +52,16 @@ i18n
           qutDescription: ``,
 
           // LetterSection
-          chiperLetter: `
-            To Whom It May Concern,
+          chiperLetter: `To Whom It May Concern,
+            
             It is my great honor to provide this letter of recommendation for Yucheng Chu. During his tenure at Chiper Technology Co., Ltd., Yucheng worked in the computer information department under my supervision for over a year.
+            
             During our collaboration, Yucheng demonstrated himself to be a dedicated, positive, creative, and reliable team player. He significantly contributed to our company by enhancing the interface design of our official website, implementing warehouse inventory management, and establishing a project progress tracking system. These initiatives immediately enhanced our administrative efficiency and reduced communication gaps.
+            
             Yucheng also played a key role in documenting our test processes, which streamlined team operations and reduced our testing cycle time by 10%.
+            
             In addition to his assigned responsibilities, Yucheng frequently assisted colleagues with computer-related issues and willingly shared his knowledge to enhance the team's technical capabilities.
+            
             I am confident in Yucheng's ability to excel in any team and successfully complete assigned tasks. For further information, please feel free to contact me at weitinglo@chiper.com.tw.
 
             Sincerely,
@@ -58,47 +70,50 @@ i18n
           `,
 
           // TesimonialsSection
-          tesimonial: `
-           With a passion for photography, art, design, and a deep appreciation for history and culture, my experiences abroad have only strengthened my love for this land.
-           In my past work experience, I handled web-related projects, initially relying heavily on my partners' programming skills. This reliance motivated me to further my education in front-end technologies, transitioning from a 2D graphic world to creating 3D web animations. The process of coding and seeing the final dynamic website come to life, much like a magician's performance, has deeply inspired me to become a "web magician" and paint on the canvas of the web.
-           Looking ahead, I aspire to contribute to your company with my web development skills and boundless creative ideas. I eagerly anticipate the opportunity to collaborate and receive correspondence from your esteemed company.
+          tesimonial: `With a passion for photography, art, design, and a deep appreciation for history and culture, my experiences abroad have only strengthened my love for this land.
+           
+            In my past work experience, I handled web-related projects, initially relying heavily on my partners' programming skills. This reliance motivated me to further my education in front-end technologies, transitioning from a 2D graphic world to creating 3D web animations. The process of coding and seeing the final dynamic website come to life, much like a magician's performance, has deeply inspired me to become a "web magician" and paint on the canvas of the web.
+            
+            Looking ahead, I aspire to contribute to your company with my web development skills and boundless creative ideas. I eagerly anticipate the opportunity to collaborate and receive correspondence from your esteemed company.
           `,
 
           //chiper project
           chiperInventoryProject: 'ChiperTech Inventory Management System',
           chiperInventoryProjectDescription: `
-            This is one of my independently developed projects, assisting Chiper Technology and the National Chung Shan Institute of Science and Technology in developing a high-magnification optical system storage solution
-            1. SQL database establishment
-            2. Node.Js handles logic such as member login and permissions
-            3. Vue3 screen presentation and data concatenation
-            All possible errors will be automatically calculated to help company colleagues reduce the chance of making mistakes and speed up work efficiency.
+            This is one of my independently developed projects, assisting Chiper Technology and the National Chung Shan Institute of Science and Technology in developing a high-magnification optical system storage solution.
+            
+            。 Establishment of the SQL database.
+            。 Node.js to handle logic such as member login and permissions.
+            。 Vue3 for screen presentation and data concatenation.
+
+            Upon completion, the system can automatically calculate potential errors, helping colleagues reduce mistakes and enhance work efficiency.
           `,
           //annoMusuem project
           annoMuseumProject: 'Anno Museum',
           annoMuseumProjectDescription: `
             For my group assignment in Tibame, I was responsible for:
-            1. Web phone mock-up and RWD design
-            2. Website visual design (e.g. Logo)
-            3. JS mini-games (comparison, program judgment)
-            4. HTML & SASS web page writing
-            5. Group development (Git version control, Gulp)
-            6. Vue.js front-end and back-end database connection
+
+            。 Web phone mock-up and RWD design
+            。 Website visual design (e.g. Logo)
+            。 JS mini-games (comparison, program judgment)
+            。 HTML & SASS web page writing
+            。 Group development (Git version control, Gulp)
+            。 Vue.js front-end and back-end database connection
           `,
           //cycTattoo project
           cycTattoProject: 'Cyc Tattoo Ink',
           cycTattoProjectDescription: `
-            For my independent assignment in Tibame,
-            The videos and photos inside are also my previous photography works.
-            My primary goal is to assist my friend, a tattoo artist, by promoting their work online.
+            This project was completed as an independent assignment at Tibame. The videos and photos featured are part of my previous photography works. My primary goal is to assist my friend, a tattoo artist, by promoting their work online.
           `,
           //shanhiham project
           shanhihamProject: 'Shanhi Ham',
           shanhihamProjectDescription: `
             Assisting in the digital transformation of traditional industries, we have successfully developed an e-commerce platform and a food delivery platform for consumers to choose from.
-            1. Make market segmentation (market research, competitive product analysis)
-            2. Electronic and youthful product and service processes
-            3. Expand new customer sources
-            4. Cultural preservation and sustainable management
+            
+            。 Make market segmentation (market research, competitive product analysis)
+            。 Electronic and youthful product and service processes
+            。 Expand new customer sources
+            。 Cultural preservation and sustainable management
           `,
           //airloft project
           airloftProject: 'Airloft',
@@ -109,15 +124,16 @@ i18n
       },
       zh: {
         translation: {
-          // InfoSection
+          // IntroductionSection
           'FRONTEND DEVELOPER': '前端工程師',
-          'Graduating from the Queensland University of Technology in Australia provided me with practical internship experience and the development of bilingual proficiency. Enjoying the process of building meaningful connections and making new friends, my overseas experiences, where time with loved ones was limited, have instilled in me a deep appreciation for every moment. With a mindset of courage and continuous learning, I face challenges head-on without hesitation.':
-            '畢業於澳洲昆士蘭科技大學並在澳洲有實習實務經驗及雙語能力 ，喜好廣結善緣結交新朋友的我在海外體會到了聚少離多的場合，因此更珍惜每一分每一秒，對生活仍舊保持勇於挑戰與學習的心態，且面對挑戰永不退縮。',
+          introduction: `
+            畢業於澳洲昆士蘭科技大學並在澳洲有實習實務經驗及雙語能力 ，喜好廣結善緣結交新朋友的我在海外體會到了聚少離多的場合，因此更珍惜每一分每一秒，對生活仍舊保持勇於挑戰與學習的心態，且面對挑戰永不退縮。
+          `,
 
           // SkillSection
           SKILLS: '技能',
 
-          // WorkSection
+          // JobSection
           'WORK EXPERIENCE': '工作經驗',
           chiperTitle: '軟體工程師',
           chiperFirm: '巨普科技',
@@ -151,12 +167,16 @@ i18n
 
           // LetterSection
           'RECOMMONDATION LETTER': '主管推薦信',
-          chiperLetter: `
-            敬啟者，
+          chiperLetter: `敬啟者，
+            
             我非常榮幸為朱禹丞提供這封推薦信。在巨普科技股份有限公司，我們一起在電腦資訊部共事並擔任他的主管達一年以上。
+            
             在我們一起工作的期間內，朱禹丞表現優秀，展現了他勤奮、積極、富有創造力且可靠的團隊 成員一面。在共事的期間，朱禹丞提升了我們官方網站的介面設計，建置了倉庫庫存管理，以 及專案進度追蹤系統。這立即提升了我們公司的行政效率，減少了溝通所造成的資訊落差問題。
+            
             他還幫助團隊撰寫測試流程文件，使我們的團隊更加順暢地運作，這個流程使我們的測試週期時間縮短了 10%。
+            
             除了滿足指派的工作內容外，他也時常幫助其他同事解決電腦相關的問題，並樂於與團隊分享所學的技術，希望以各種可能的方式提升同事間彼此的技術能力。
+            
             我有信心他在不同的團隊中皆可妥善完成指派的任務。如果您需要更多資訊，請隨時與我聯 絡，我的電子郵件地址是 weitinglo@chiper.com.tw。
 
             Sincerely,
@@ -166,9 +186,10 @@ i18n
 
           // TesimonialsSection
           'MORE ABOUT ME': '更多關於我',
-          tesimonial: `
-            喜好攝影藝術設計、喜愛歷史文化， 走過異鄉過後， 更讓我加深了對這片土地的熱愛。
+          tesimonial: `喜好攝影藝術設計、喜愛歷史文化， 走過異鄉過後， 更讓我加深了對這片土地的熱愛。
+            
             在過往的工作經驗中， 有承接網頁相關的案子， 當時都得仰賴夥伴的程式語言能力， 因此進修學習前端的相關技術， 從平面2D的世界轉移到3D的網站動畫。在平凡的打code中， 看到像魔術師般最終網站的動態呈現， 深深吸引著我想成為一名網站魔術師， 在網站的畫布上作畫。
+            
             冀望未來能為貴司提供網頁製作的能力、源源不絕的創意企劃能力。 期待能與您共事、接到貴公司的來信。
           `,
 
@@ -181,22 +202,24 @@ i18n
           chiperInventoryProject: '巨普科技倉儲系統',
           chiperInventoryProjectDescription: `
             這是我其中一個獨立開發的案例，幫助巨普科技與中科院合作案做的一個高倍率光學系統倉儲系統。
-            1. SQL 資料庫建置
-            2. Node.Js 處理會員登入、權限等邏輯
-            3. Vue3 畫面呈現、串接資料
+            
+            。 SQL 資料庫建置
+            。 Node.Js 處理會員登入、權限等邏輯
+            。 Vue3 畫面呈現、串接資料
+
             將有可能會出錯的地方全部自動化計算，幫助公司同仁減少出錯的機會，也加快工作效率。
           `,
           //annoMusuem project
           annoMuseumProject: '新世紀博物館',
           annoMuseumProjectDescription: `
-            為我在緯育Tibame的團體專題作品，
-            我主要負責：
-            1. 網頁手機mock-up與RWD設計
-            2. 網站視覺設計(e.g. Logo)
-            3. JS小遊戲(比對、程式判斷)
-            4. HTML & SASS網頁撰寫
-            5. 團體開發(Git版控、Gulp)
-            6. Vue.js前後台串接資料庫
+            為我在緯育Tibame的團體專題作品，我主要負責：
+
+            。 網頁手機mock-up與RWD設計
+            。 網站視覺設計(e.g. Logo)
+            。 JS小遊戲(比對、程式判斷)
+            。 HTML & SASS網頁撰寫
+            。 團體開發(Git版控、Gulp)
+            。 Vue.js前後台串接資料庫
           `,
           //cycTattoo project
           cycTattoProject: 'CYC 刺青工作室',
@@ -207,10 +230,11 @@ i18n
           shanhihamProject: '上海火腿',
           shanhihamProjectDescription: `
             協助傳統產業轉型，目前有自己的電商平台、美食外送平台供消費者選購。
-            1. 做出市場區隔(市場調查、競品分析)
-            2. 產品與服務流程電子化、年輕化
-            3. 擴展新客源
-            4. 文化保存、永續經營
+
+            。 做出市場區隔(市場調查、競品分析)
+            。 產品與服務流程電子化、年輕化
+            。 擴展新客源
+            。 文化保存、永續經營
           `,
           //airloft project
           airloftProject: 'Airloft 看房去租屋網',

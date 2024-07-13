@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import CardWork from '@/components/CardWork';
+import DetailCard from '@/components/cards/DetailCard';
 
 function EducationSection() {
   const { t } = useTranslation();
@@ -25,15 +25,13 @@ function EducationSection() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-            {t(`EDUCATION`)}
-          </h2>
-          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        <div className="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+          <h2 className="heading">{t(`EDUCATION`)}</h2>
+          <span className="line--decorated"></span>
         </div>
         <div className="-my-8 divide-y-2 divide-gray-100">
           {educationData.map((el, i) => (
-            <CardWork
+            <DetailCard
               title={el.title}
               firm={el.firm}
               time={el.time}

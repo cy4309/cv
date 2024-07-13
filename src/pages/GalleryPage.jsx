@@ -21,64 +21,58 @@ function GalleryPage() {
       description: t('chiperInventoryProjectDescription'),
       imageUrl1: chiper1,
       imageUrl2: chiper2,
-      href: 'http://218.35.165.194:8081/Login/',
+      href: 'http://218.35.165.194:8081/Login',
     },
     {
       title: t('annoMuseumProject'),
       description: t('annoMuseumProjectDescription'),
       imageUrl1: AnnoMuseum1,
       imageUrl2: AnnoMuseum2,
-      href: 'https://tibamef2e.com/tfd105/g4/index.html/',
+      href: 'https://tibamef2e.com/tfd105/g4/index.html',
     },
     {
       title: t('cycTattoProject'),
       description: t('cycTattoProjectDescription'),
       imageUrl1: CYCTattoo1,
       imageUrl2: CYCTattoo2,
-      href: 'https://cy4309.github.io/TFD105_01CYC/MainPage.html/',
+      href: 'https://cy4309.github.io/TFD105_01CYC/MainPage.html',
     },
     {
       title: t('shanhihamProject'),
       description: t('shanhihamProjectDescription'),
       imageUrl1: ShanhiHam1,
       imageUrl2: ShanhiHam2,
-      href: 'https://www.sanhiham1956.com/',
+      href: 'https://www.sanhiham1956.com',
     },
     {
       title: t('airloftProject'),
       description: t('airloftProjectDescription'),
       imageUrl1: Airloft1,
       imageUrl2: Airloft2,
-      href: 'https://www.airloft.com.tw/',
+      href: 'https://www.airloft.com.tw',
     },
   ];
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-            {t(`GALLERY`)}
-          </h2>
-          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+    <div className="gallery__wrapper mt-24">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-10 flex-col items-center text-center">
+            <h2 className="heading">{t(`GALLERY`)}</h2>
+            <span className="line--decorated"></span>
+          </div>
+          {galleryData.map((el, i) => (
+            <GallerySection
+              title={el.title}
+              description={el.description}
+              imageUrl1={el.imageUrl1}
+              imageUrl2={el.imageUrl2}
+              href={el.href}
+              key={i}
+            />
+          ))}
         </div>
-        {galleryData.map((el, i) => (
-          <GallerySection
-            title={el.title}
-            // description={el.description}
-            description={el.description.split('\n').map((line, index) => (
-              <React.Fragment key={index}>
-                {line}
-                <br />
-              </React.Fragment>
-            ))}
-            imageUrl1={el.imageUrl1}
-            imageUrl2={el.imageUrl2}
-            href={el.href}
-            key={i}
-          />
-        ))}
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 

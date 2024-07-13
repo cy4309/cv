@@ -2,18 +2,23 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="text-gray-600 body-font">
+    <footer className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto"></div>
-      <div className="bg-gray-100">
+      <div
+        className=""
+        // style={{ backgroundColor: 'rgba(243,244,246,0.4)' }}
+      >
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-sm text-center text--tertiaryColor sm:mt-0 mt-4">
             © 2024 Yucheng Chu, phone: 0916-530519, email: cy4309@gmail.com
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             {/* facebook icon */}
             <a
-              className="text-gray-500"
+              className="text--tertiaryColor"
               href="https://www.facebook.com/chengchu0519"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 fill="currentColor"
@@ -28,8 +33,10 @@ function Footer() {
             </a>
             {/* linkedin icon */}
             <a
-              className="ml-3 text-gray-500"
+              className="text--tertiaryColor ml-3"
               href="https://www.linkedin.com/in/chu-yucheng"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 fill="currentColor"
@@ -49,8 +56,10 @@ function Footer() {
             </a>
             {/* behance icon */}
             <a
-              className="ml-3 text-gray-500"
+              className="text--tertiaryColor ml-3"
               href="https://www.behance.net/chu_yuchen"
+              target="_blank"
+              rel="noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

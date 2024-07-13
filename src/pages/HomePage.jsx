@@ -3,25 +3,25 @@ import React from 'react';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { increment, decrement } from '@/features/counter/counterSlice';
 
-import InfoSection from '@/containers/HomePage/InfoSection';
+import IntroductionSection from '@/containers/HomePage/IntroductionSection';
 import SkillSection from '@/containers/HomePage/SkillSection';
-import WorkSection from '@/containers/HomePage/WorkSection';
+import JobSection from '@/containers/HomePage/JobSection';
 import EducationSection from '@/containers/HomePage/EducationSection';
-import LetterSection from '../containers/HomePage/LetterSection';
-import TestimonialsPage from '@/containers/HomePage/TestimonialsPage';
+import LetterSection from '@/containers/HomePage/LetterSection';
+import TestimonialsSection from '@/containers/HomePage/TestimonialsSection';
 
 function HomePage() {
   // const count = useSelector(state => state.counter.value);
   // const dispatch = useDispatch();
 
   return (
-    <div className="home__wrapper">
-      <InfoSection />
+    <div className="home__wrapper mt-24">
+      <IntroductionSection />
       <SkillSection />
-      <WorkSection />
+      <JobSection />
       <EducationSection />
       <LetterSection />
-      <TestimonialsPage />
+      <TestimonialsSection />
       {/* <div className="count">
         <p>Count: {count}</p>
         <button

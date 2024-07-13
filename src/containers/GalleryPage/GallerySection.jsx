@@ -1,37 +1,28 @@
 import React from 'react';
-import CardPhoto from '@/components/CardPhoto';
+import PhotoCard from '@/components/cards/PhotoCard';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 function GallerySection({ title, description, imageUrl1, imageUrl2, href }) {
   return (
     <div className="container px-5 py-24 mx-auto">
-      <div className="flex flex-col text-center w-full mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          {title}
-        </h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+      <h2 className="title text-center">{title}</h2>
+      <div className="flex flex-col w-full mb-4">
+        <p className="mx-auto description flex text-base text-left mb-8">
+          <span className="inline-block w-px rounded bg-indigo-500 mt-8 mr-4"></span>
+          {/* <span className="line--decorated w-px h-auto mt-8 mr-4"></span> */}
           {description}
         </p>
         <a
-          className="text-indigo-500 inline-flex items-center mt-4 ml-4 justify-center"
+          className="btn--secondary w-auto"
           href={href}
+          target="_blank"
+          rel="noreferrer"
         >
-          Website
-          <svg
-            className="w-4 h-4 ml-2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth="2"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M5 12h14"></path>
-            <path d="M12 5l7 7-7 7"></path>
-          </svg>
+          <KeyboardArrowRightIcon />
         </a>
       </div>
-      <div className="flex flex-wrap -m-4">
-        <CardPhoto imageUrl1={imageUrl1} imageUrl2={imageUrl2} />
+      <div className="flex flex-wrap -m-4 min-h-[150px] lg:min-h-[200px]">
+        <PhotoCard imageUrl1={imageUrl1} imageUrl2={imageUrl2} />
       </div>
     </div>
   );

@@ -12,6 +12,83 @@ code {
     monospace;
 }
 
-.description {
-  white-space: pre-line;
+/* 縮小 header 的樣式，例如減小高度、縮小內容等 */
+.shrink-header {
+  height: 80px;
+  font-size: 1rem;
+  transition: 0.2s ease;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.shrink-header a p,
+.shrink-header nav button p {
+  padding-left: 8px;
+}
+
+.shrink-header nav button,
+.shrink-header nav button svg {
+  transition: 0.2s ease;
+  padding: 6px;
+  padding-left: 6px;
+}
+
+.shrink-header nav button p {
+  font-size: 0.8rem;
+}
+
+
+/*** color ***/
+/* primary: gray-700; */
+/* secondary: gray-500; */
+/* primary--decoreated: indigo-500 */
+
+/*** button ***/
+.btn--primary {
+  @apply inline-flex items-center text-indigo-500 font-bold border-2 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0 border-indigo-500 mr-2 bg-white dark:bg-black dark:hover:bg-gray-700;
+}
+
+.btn--secondary {
+  @apply inline-flex items-center justify-center font-bold border-2 rounded border-indigo-500 text-indigo-500 w-full mt-8 lg:mr-[4%] xl:mr-[3%];
+}
+
+/*** dark mode ***/
+.dark {
+  @apply bg-black;
+}
+
+/*** color ***/
+.text--primaryColor {
+  @apply text-gray-700 dark:text-gray-300
+}
+
+.text--secondaryColor {
+  @apply text-gray-500 dark:text-gray-500
+}
+
+.text--tertiaryColor {
+  @apply text-indigo-500
+}
+
+/*** font ***/
+.heading {
+  @apply sm:text-3xl text-2xl font-medium text--primaryColor mb-2;
+}
+
+.title {
+  @apply text-2xl font-semibold text--primaryColor;
+}
+
+.subtitle,
+.introduction,
+.description,
+.tesimonial,
+.chiperLetter {
+  @apply font-normal leading-relaxed whitespace-pre-line text--secondaryColor;
+}
+
+/*** decoration ***/
+.line--decorated {
+  @apply inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6;
 }

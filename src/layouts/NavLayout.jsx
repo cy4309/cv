@@ -5,9 +5,11 @@ import AppRoutes from '@/routes/index.js';
 
 function NavLayout() {
   return (
-    <div className="nav__wrapper">
+    <div>
       <Header />
-      <AppRoutes />
+      <div className="container max-w-screen-lg" style={{ margin: '0 auto' }}>
+        <AppRoutes />
+      </div>
       <Footer />
     </div>
   );
