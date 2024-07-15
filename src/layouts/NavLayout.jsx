@@ -7,7 +7,10 @@ function NavLayout() {
   return (
     <div>
       <Header />
-      <div className="container max-w-screen-lg" style={{ margin: '0 auto' }}>
+      <div
+        className="container max-w-screen-lg mt-48"
+        // style={{ margin: '0 auto' }}
+      >
         <AppRoutes />
       </div>
       <Footer />

@@ -15,7 +15,7 @@ function HomePage() {
   // const dispatch = useDispatch();
 
   return (
-    <div className="home__wrapper mt-24">
+    <div className="home__wrapper">
       <IntroductionSection />
       <SkillSection />
       <JobSection />
