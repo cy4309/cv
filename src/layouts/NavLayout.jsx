@@ -8,8 +8,8 @@ function NavLayout() {
     <div>
       <Header />
       <div
-        className="container max-w-screen-lg mt-48"
-        // style={{ margin: '0 auto' }}
+        className="container max-w-screen-lg pt-24"
+        style={{ margin: '0 auto' }}
       >
         <AppRoutes />
       </div>

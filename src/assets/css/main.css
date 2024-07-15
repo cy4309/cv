@@ -73,7 +73,7 @@ code {
 
 /*** font ***/
 .heading {
-  @apply sm:text-3xl text-2xl font-medium text--primaryColor mb-2;
+  @apply sm:text-3xl text-2xl font-medium text--primaryColor mb-2 text-center;
 }
 
 .title {
