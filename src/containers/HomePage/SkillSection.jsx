@@ -10,7 +10,8 @@ function SkillSection() {
       icon: <AddCircleOutlineIcon />,
       title: 'Frontend',
       subtitle:
-        'Vue.js, React.js, Angular.js, Bootstrap, Tailwind.css, Sass/Scss, Vuex, Pinia, Redux',
+        'Vue.js, React.js, Angular.js, Bootstrap, Tailwind.css, Sass/Scss, Pinia, Redux, p5.js',
+      // 'Vue.js, React.js, Angular.js, Bootstrap, Tailwind.css, Sass/Scss, Vuex, Pinia, Redux, p5.js, 3.js',
     },
     {
       icon: <AddCircleOutlineIcon />,
