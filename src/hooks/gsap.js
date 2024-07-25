@@ -15,7 +15,7 @@ const useGSAP = () => {
     gsap.utils.toArray('.animate-left').forEach(element => {
       gsap.fromTo(
         element,
-        { x: '-15%', opacity: 0 },
+        { x: '-10%', opacity: 0 },
         {
           x: 0,
           opacity: 1,
@@ -23,7 +23,7 @@ const useGSAP = () => {
             trigger: element,
             start: 'top 90%', // 當滾動到視窗的 90% 高度時觸發動畫
             end: 'bottom 40%', // 當滾動到視窗的 40% 高度時結束動畫
-            scrub: 0.4, // 滾動時的速度，scrub: true 表示動畫會根據滾動的速度同步進行
+            scrub: 0.5, // 滾動時的速度，scrub: true 表示動畫會根據滾動的速度同步進行
           },
         }
       );
@@ -32,7 +32,7 @@ const useGSAP = () => {
     gsap.utils.toArray('.animate-right').forEach(element => {
       gsap.fromTo(
         element,
-        { x: '15%', opacity: 0 },
+        { x: '10%', opacity: 0 },
         {
           x: 0,
           opacity: 1,
@@ -40,7 +40,7 @@ const useGSAP = () => {
             trigger: element,
             start: 'top 90%',
             end: 'bottom 40%',
-            scrub: 0.4,
+            scrub: 0.5,
           },
         }
       );
