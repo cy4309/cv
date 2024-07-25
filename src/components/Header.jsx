@@ -56,7 +56,7 @@ function Header() {
   return (
     <header className="relative flex justify-center">
       <div
-        className={`container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center fixed w-full ${
+        className={`container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center fixed w-full z-10 ${
           isShrink ? 'shrink-header' : ''
         }`}
         // style={{ backgroundColor: 'rgba(243,244,246,0.4)' }}

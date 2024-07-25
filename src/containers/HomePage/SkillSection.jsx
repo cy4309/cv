@@ -2,9 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import BusinessCard from '@/components/cards/BusinessCard';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import useGSAP from '@/hooks/gsap';
 
 function SkillSection() {
   const { t } = useTranslation();
+  useGSAP();
+
   const skillsData = [
     {
       icon: <AddCircleOutlineIcon />,
@@ -54,6 +57,7 @@ function SkillSection() {
               icon={el.icon}
               title={el.title}
               subtitle={el.subtitle}
+              animate={i % 2 === 0 ? 'animate-left' : 'animate-right'}
               key={i}
             />
           ))}

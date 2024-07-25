@@ -13,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.19",
+    "gsap": "^3.12.5",
     "i18next": "^23.11.5",
     "p5": "^1.9.4",
     "postcss": "^8.4.39",

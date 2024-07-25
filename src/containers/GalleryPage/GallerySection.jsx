@@ -1,8 +1,11 @@
 import React from 'react';
 import PhotoCard from '@/components/cards/PhotoCard';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import useGSAP from '@/hooks/gsap';
 
 function GallerySection({ title, description, imageUrl1, imageUrl2, href }) {
+  useGSAP();
+  const imageUrlArr = [imageUrl1, imageUrl2];
   return (
     <div className="container px-5 py-24 mx-auto">
       <h2 className="title text-center">{title}</h2>
@@ -22,7 +25,13 @@ function GallerySection({ title, description, imageUrl1, imageUrl2, href }) {
         </a>
       </div>
       <div className="flex flex-wrap -m-4 min-h-[150px] lg:min-h-[200px]">
-        <PhotoCard imageUrl1={imageUrl1} imageUrl2={imageUrl2} />
+        {imageUrlArr.map((el, i) => (
+          <PhotoCard
+            imageUrl={el}
+            animate={i % 2 === 0 ? 'animate-left' : 'animate-right'}
+            key={i}
+          />
+        ))}
       </div>
     </div>
   );
