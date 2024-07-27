@@ -55,7 +55,7 @@ function GalleryPage() {
   return (
     <div className="gallery__wrapper">
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto overflow-x-hidden">
           <div className="flex flex-wrap w-full mb-10 flex-col items-center text-center">
             <h2 className="heading">{t(`GALLERY`)}</h2>
             <span className="line--decorated"></span>

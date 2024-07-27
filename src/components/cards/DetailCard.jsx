@@ -4,7 +4,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 function DetailCard({ title, firm, time, content, description, href }) {
   return (
     <div className="py-8 flex flex-wrap md:flex-nowrap">
-      <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+      <div className="md:w-64 md:mb-0 mb-6 flex flex-col">
         <span className="title">{title}</span>
         <span className="font-semibold text--primaryColor">{firm}</span>
         <span className="text-sm text--secondaryColor mt-1">{time}</span>

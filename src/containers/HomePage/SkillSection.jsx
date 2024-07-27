@@ -46,7 +46,7 @@ function SkillSection() {
 
   return (
     <section className="text-gray-700 body-font border-t border-gray-200">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 mx-auto overflow-x-hidden">
         <div className="flex flex-wrap w-full mb-10 flex-col items-center text-center">
           <h2 className="heading">{t(`SKILLS`)}</h2>
           <span className="line--decorated"></span>
