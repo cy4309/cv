@@ -17,6 +17,14 @@ i18n
             With a mindset of courage and continuous learning, I face challenges head-on without hesitation.
           `,
           // JobSection
+          spe3dTitle: 'Frontend Engineer',
+          spe3dFirm: 'Speed3D Technology',
+          spe3dContent:
+            'Independently develop the website, from uiux design, frontend development, testing and maintenance, frontend deployment, and assists in the construction and connection of the backend database.',
+          spe3dDescription: `。 Help the company win the award in Epson innovation challenges 2025.
+             。 Company product development: FunkAI, imorph cloud platform system, Young Chien numerology project, Epson Connect api project.
+             。 Frontend website maintenance and Three.js implementation.
+            `,
           chiperTitle: 'Software Engineer',
           chiperFirm: 'Chiper Technology',
           chiperContent:
@@ -135,6 +143,13 @@ i18n
 
           // JobSection
           'WORK EXPERIENCE': '工作經驗',
+          spe3dTitle: '前端工程師',
+          spe3dFirm: '啟雲科技',
+          spe3dContent:
+            '獨立開發網站，從使用者體驗設計、前端開發與測試維護，前端部屬上線，並協助後端資料庫建置與串接。',
+          spe3dDescription: `。 幫助公司在Epson innovation challenges 2025獲得佳作。
+                              。 公司產品開發: FunkAI, imorph雲平台系統, 簡少年命理專案, Epson Connenct api專案。
+                              。 前端網站維護、Three.js實作。`,
           chiperTitle: '軟體工程師',
           chiperFirm: '巨普科技',
           chiperContent:

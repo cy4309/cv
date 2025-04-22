@@ -6,6 +6,14 @@ const WorkSection = () => {
   const { t } = useTranslation();
   const worksData = [
     {
+      title: t('spe3dTitle'),
+      firm: t('spe3dFirm'),
+      time: 'Aug 2024 - Present',
+      content: t('spe3dContent'),
+      description: t('spe3dDescription'),
+      href: 'https://www.spe3d.co/',
+    },
+    {
       title: t('chiperTitle'),
       firm: t('chiperFirm'),
       time: 'Jun 2022 - Oct 2023',
