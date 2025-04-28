@@ -12,25 +12,28 @@ function SkillSection() {
     {
       icon: <AddCircleOutlineIcon />,
       title: 'Frontend',
-      subtitle:
-        'Vue.js, React.js, Angular.js, Bootstrap, Tailwind.css, Sass/Scss, Pinia, Redux, p5.js',
-      // 'Vue.js, React.js, Angular.js, Bootstrap, Tailwind.css, Sass/Scss, Vuex, Pinia, Redux, p5.js, 3.js',
+      subtitle: `- React, Vue, Angular, TypeScript,
+      - Tailwind, Bootstrap, Sass/Scss,
+      - Pinia, Redux, Rematch,
+      - Three, P5,`,
     },
     {
       icon: <AddCircleOutlineIcon />,
       title: 'Backend & DB',
-      subtitle: 'Node.js, Php, MySQL, SQLite, Firebase, Heroku',
+      subtitle: `- Node.js, Express,
+      - MySQL, SQLite, Firebase,`,
     },
     {
       icon: <AddCircleOutlineIcon />,
-      title: 'Others',
-      subtitle: 'Git, Github, Scrum, Gulp, Webpack, NPM, Linux',
+      title: 'Deployment & Others',
+      subtitle: `- Vercel, Heroku, AppsScript,
+      - Git, Github, Scrum,
+      - Vite, Gulp, Webpack,`,
     },
     {
       icon: <AddCircleOutlineIcon />,
-      title: 'Graphic Design',
-      subtitle:
-        'Figma, Sketch, Illustrator, Photoshop, Indesign, Premiere, Microsoft',
+      title: 'Uiux Design',
+      subtitle: `- Figma, Adobe Series(AI, PS, PR),`,
     },
     {
       icon: <AddCircleOutlineIcon />,
@@ -40,7 +43,7 @@ function SkillSection() {
     {
       icon: <AddCircleOutlineIcon />,
       title: 'Languages',
-      subtitle: 'Mandarin, Taiwanese, English(advanced) IELTS: 6.5',
+      subtitle: 'English(advanced), Mandarin, Taiwanese,',
     },
   ];
 

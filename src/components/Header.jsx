@@ -45,14 +45,21 @@ function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleDarkMode = () => {
+    dispatch(toggleDarkMode());
+    localStorage.setItem('darkMode', !darkMode);
+  };
+
   const handleNavigate = () => {
     navigate('/gallery');
   };
+
   const toggleLanguage = () => {
     const currentLanguage = i18n.language;
     const newLanguage = currentLanguage === 'en' ? 'zh' : 'en';
     i18n.changeLanguage(newLanguage); // 切換語言
   };
+
   return (
     <header className="relative flex justify-center">
       <div
@@ -72,7 +79,8 @@ function Header() {
 
         <nav className="md:ml-auto flex content-between items-center text-base justify-center h-full">
           <button
-            onClick={() => dispatch(toggleDarkMode())}
+            // onClick={() => dispatch(toggleDarkMode())}
+            onClick={handleDarkMode}
             className="btn--primary h-full"
           >
             {darkMode ? <LightModeIcon /> : <DarkModeIcon />}
