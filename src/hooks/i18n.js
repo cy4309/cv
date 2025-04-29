@@ -85,6 +85,16 @@ i18n
             Looking ahead, I aspire to contribute to your company with my web development skills and boundless creative ideas. I eagerly anticipate the opportunity to collaborate and receive correspondence from your esteemed company.
           `,
 
+          //spe3d project
+          spe3dProject: 'Speed3D Tech Projects',
+          spe3dProjectDescription: `
+               I worked independently as a frontend engineer at Speed3D Technology Company, assisting the company in developing products such as FunkAI, imorph cloud platform system, Young Chien Numerology Project, Epson Connect API Project, and won the honorable mention in the 2025 Epson innovation challenges.
+               
+               。 React, TypeScript, Three.js, GSAP.
+               。 Web presentation, Restful API, frontend development, testing and maintenance, frontend deployment.
+   
+               Independently developed within the time limit, completed the UIUX prototype design, frontend and backend connection, frontend function development, testing and maintenance, online deployment, and assisted in the construction and deployment of the backend database.
+             `,
           //chiper project
           chiperInventoryProject: 'ChiperTech Inventory Management System',
           chiperInventoryProjectDescription: `
@@ -213,6 +223,16 @@ i18n
           'Hi, I am Yucheng Chu.': '嗨，我是朱禹丞。',
           GALLERY: '作品集',
 
+          //spe3d project
+          spe3dProject: '啟雲科技專案',
+          spe3dProjectDescription: `
+               我在啟雲科技公司獨立擔任前端工程師一職，協助公司開發FunkAI、imorph雲平台系統、簡少年命理專案、Epson Connect api專案等產品，並於2025年 Epson innovation challenges 獲得佳作。
+               
+               。 React, TypeScript, Three.js, GSAP
+               。 畫面呈現、串接資料, 前端開發、測試維護、前端部屬上線
+   
+               在時間內獨立開發，完成UIUX 原型設計、前後端串接、前端功能開發、測試維護、上線部屬，並協助後端資料庫建置與部屬。
+             `,
           //chiper project
           chiperInventoryProject: '巨普科技倉儲系統',
           chiperInventoryProjectDescription: `

@@ -7,7 +7,7 @@ function PhotoCard({ imageUrl, animate }) {
       <div className="flex flex-wrap lg:flex-nowrap">
         <img
           alt="gallery"
-          className={`inset-0 w-full h-full object-cover object-center border-2 border-gray-100 ${animate}`}
+          className={`inset-0 w-full object-cover object-center border-2 border-gray-400 ${animate}`}
           // className="inset-0 w-full h-full object-cover object-center border-2 border-gray-100"
           src={imageUrl}
         />

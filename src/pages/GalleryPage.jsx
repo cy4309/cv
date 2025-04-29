@@ -11,12 +11,20 @@ import ShanhiHam1 from '@/assets/img/jobs/ShanhiHam-1.png';
 import ShanhiHam2 from '@/assets/img/jobs/ShanhiHam-2.png';
 import Airloft1 from '@/assets/img/jobs/Airloft-1.png';
 import Airloft2 from '@/assets/img/jobs/Airloft-2.png';
+import spe3d1 from '@/assets/img/jobs/spe3d/spe3d1.png';
+import spe3d2 from '@/assets/img/jobs/spe3d/spe3d2.png';
 
 function GalleryPage() {
   const { t } = useTranslation();
   const galleryData = [
     {
-      // id: 1,
+      title: t('spe3dProject'),
+      description: t('spe3dProjectDescription'),
+      href: 'https://epson-hey-echo.vercel.app/login',
+      imageUrl1: spe3d1,
+      imageUrl2: spe3d2,
+    },
+    {
       title: t('chiperInventoryProject'),
       description: t('chiperInventoryProjectDescription'),
       href: 'http://218.35.165.194:8081/Login',
