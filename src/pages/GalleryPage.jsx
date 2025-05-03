@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import GallerySection from '@/containers/GalleryPage/GallerySection';
 import chiper1 from '@/assets/img/jobs/Chiper-1.png';
@@ -13,9 +13,14 @@ import Airloft1 from '@/assets/img/jobs/Airloft-1.png';
 import Airloft2 from '@/assets/img/jobs/Airloft-2.png';
 import spe3d1 from '@/assets/img/jobs/spe3d/spe3d1.png';
 import spe3d2 from '@/assets/img/jobs/spe3d/spe3d2.png';
+import cycStudio1 from '@/assets/img/jobs/CycStudio-1.png';
+import cycStudio2 from '@/assets/img/jobs/CycStudio-2.png';
 
 function GalleryPage() {
   const { t } = useTranslation();
+  const [isSelectedProject, setIsSelectedProject] = useState(true);
+  const [selectedProject, setSelectedProject] = useState(1);
+
   const galleryData = [
     {
       title: t('spe3dProject'),
@@ -23,6 +28,11 @@ function GalleryPage() {
       href: 'https://epson-hey-echo.vercel.app/login',
       imageUrl1: spe3d1,
       imageUrl2: spe3d2,
+      // notes: `
+      //   FunkAI: https://ai.funk-ar.com/,
+      //   imorph: https://imorph.spe3d.co/,
+      //   YoungChienNumerologyProject,: https://face-fortune-tool.vercel.app/
+      //   `,
     },
     {
       title: t('chiperInventoryProject'),
@@ -60,6 +70,15 @@ function GalleryPage() {
       imageUrl2: Airloft2,
     },
   ];
+  const sideProjectsData = [
+    {
+      title: t('cycStudioProject'),
+      description: t('cycStudioProjectDescription'),
+      href: 'https://cyc-studio.vercel.app/',
+      imageUrl1: cycStudio1,
+      imageUrl2: cycStudio2,
+    },
+  ];
   return (
     <div className="gallery__wrapper">
       <section className="text-gray-600 body-font">
@@ -67,17 +86,55 @@ function GalleryPage() {
           <div className="flex flex-wrap w-full mb-10 flex-col items-center text-center">
             <h2 className="heading">{t(`GALLERY`)}</h2>
             <span className="line--decorated"></span>
+            <div className="w-full flex justify-center items-center gap-x-4">
+              <h5
+                className={`cursor-pointer ${
+                  isSelectedProject ? 'text-white border-b-2' : 'text-gray-600'
+                }`}
+                onClick={() => {
+                  setIsSelectedProject(true);
+                  setSelectedProject(1);
+                }}
+              >
+                Projects
+              </h5>
+              <h5
+                className={`cursor-pointer ${
+                  !isSelectedProject ? 'text-white border-b-2' : 'text-gray-600'
+                }`}
+                onClick={() => {
+                  setIsSelectedProject(false);
+                  setSelectedProject(2);
+                }}
+              >
+                Side-Projects
+              </h5>
+            </div>
           </div>
-          {galleryData.map((el, i) => (
-            <GallerySection
-              title={el.title}
-              description={el.description}
-              href={el.href}
-              imageUrl1={el.imageUrl1}
-              imageUrl2={el.imageUrl2}
-              key={i}
-            />
-          ))}
+          {selectedProject === 1 &&
+            galleryData.map((el, i) => (
+              <GallerySection
+                key={i}
+                title={el.title}
+                description={el.description}
+                href={el.href}
+                imageUrl1={el.imageUrl1}
+                imageUrl2={el.imageUrl2}
+                notes={el.notes}
+              />
+            ))}
+          {selectedProject === 2 &&
+            sideProjectsData.map((el, i) => (
+              <GallerySection
+                key={i}
+                title={el.title}
+                description={el.description}
+                href={el.href}
+                imageUrl1={el.imageUrl1}
+                imageUrl2={el.imageUrl2}
+                notes={el.notes}
+              />
+            ))}
         </div>
       </section>
     </div>

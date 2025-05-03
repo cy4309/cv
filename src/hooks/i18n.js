@@ -138,6 +138,13 @@ i18n
           airloftProjectDescription: `
             In Taipei, in 2019, my friends and I launched a rental housing platform. From ground zero, we developed the website structure and attracted 1,000 users within two months, with a peak of 2,000 views in a single day. I contributed to the UI visual design of the website and managed its social media operations, including content creation and shooting.
           `,
+          //cyc studio project
+          cycStudioProject: 'CYC Studio',
+          cycStudioProjectDescription: `
+            This is my personal side project, where I independently developed a website for a tattoo artist friend. The videos and photos featured are also part of my previous photography works.
+            
+            。 React, GSAP, Framer-motion
+          `,
         },
       },
       zh: {
@@ -276,6 +283,13 @@ i18n
           airloftProjectDescription: `
             2019年我和朋友在台北創業架設的一個租屋網平台，從0到目前看到的網站架構，2個月內用戶數也從原本的0來到了1000人、單日瀏覽次數最高也達到2000人，其中參與開發網站的UI視覺設計，以及後續社群網站的經營與拍攝內容之工作。
           `,
+          //cyc studio project
+          cycStudioProject: 'CYC 工作室',
+          cycStudioProjectDescription: `
+            這是我個人的side project，獨立開發的網站，裡面的影片與照片也都是我以前的攝影作品。
+             
+             。 React, GSAP, Framer-motion
+           `,
         },
       },
     },
