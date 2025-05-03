@@ -89,7 +89,9 @@ function GalleryPage() {
             <div className="w-full flex justify-center items-center gap-x-4">
               <h5
                 className={`cursor-pointer ${
-                  isSelectedProject ? 'text-white border-b-2' : 'text-gray-600'
+                  isSelectedProject
+                    ? 'border-b-2 rounded-sm border-indigo-500 text-black dark:text-white'
+                    : 'text-gray-600'
                 }`}
                 onClick={() => {
                   setIsSelectedProject(true);
@@ -100,7 +102,9 @@ function GalleryPage() {
               </h5>
               <h5
                 className={`cursor-pointer ${
-                  !isSelectedProject ? 'text-white border-b-2' : 'text-gray-600'
+                  !isSelectedProject
+                    ? 'border-b-2 rounded-sm border-indigo-500 text-black dark:text-white'
+                    : 'text-gray-600'
                 }`}
                 onClick={() => {
                   setIsSelectedProject(false);
