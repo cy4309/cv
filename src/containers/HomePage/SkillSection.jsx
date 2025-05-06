@@ -20,7 +20,7 @@ function SkillSection() {
     {
       icon: <AddCircleOutlineIcon />,
       title: 'Backend & DB',
-      subtitle: `- Node.js, Express,
+      subtitle: `- Node.js, Express, WebSocket,
       - MySQL, SQLite, Firebase,`,
     },
     {
@@ -38,7 +38,7 @@ function SkillSection() {
     {
       icon: <AddCircleOutlineIcon />,
       title: 'Marketing',
-      subtitle: 'SWOT Analysis, Community Management, Campaign Design',
+      subtitle: 'SWOT Analysis, Community Management, Campaign Design,',
     },
     {
       icon: <AddCircleOutlineIcon />,
