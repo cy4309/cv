@@ -21,10 +21,13 @@ i18n
           spe3dFirm: 'Speed3D Technology',
           spe3dContent:
             'Independently develop the website, from uiux design, frontend development, testing and maintenance, frontend deployment, and assists in the construction and connection of the backend database.',
-          spe3dDescription: `。 Help the company win the award in Epson innovation challenges 2025.
-             。 Company product development: FunkAI, imorph cloud platform system, Young Chien numerology project, Epson Connect api project.
-             。 AI Model RestfulAPI and WebSocket real-time connection, frontend website maintenance, and Three.js implementation.
-            `,
+          spe3dDescription: `。 Independently led web development projects, covering user experience (UX) design, front-end implementation, testing, maintenance, and deployment. Also supported back-end database architecture and API integration.
+                             。 Awarded Honorable Mention in Epson Innovation Challenges 2025: Contributed to the company's product submission, showcasing innovation and technical integration.
+                             。 Product development experience includes:
+                              - Integrating AI models into web applications to enable interactive features such as image generation and chatbot interfaces.
+                              - Developing WebAR (Web-based Augmented Reality) features using MindAR and Three.js.
+                              - Implementing real-time communication with AI models via WebSocket connections.
+                              - Maintaining front-end websites and building interactive 3D components with Three.js.`,
           chiperTitle: 'Software Engineer',
           chiperFirm: 'Chiper Technology',
           chiperContent:
@@ -90,7 +93,7 @@ i18n
           spe3dProjectDescription: `
                I worked independently as a frontend engineer at Speed3D Technology Company, assisting the company in developing products such as FunkAI, imorph cloud platform system, Young Chien Numerology Project, Epson Connect API Project, and won the honorable mention in the 2025 Epson innovation challenges.
                
-               。 React, TypeScript, Three.js, GSAP, WebSocket.
+               。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR.
                。 Web presentation, Restful API, frontend development, testing and maintenance, frontend deployment.
    
                Independently developed within the time limit, completed the UIUX prototype design, frontend and backend connection, frontend function development, testing and maintenance, online deployment, and assisted in the construction and deployment of the backend database.
@@ -164,9 +167,13 @@ i18n
           spe3dFirm: '啟雲科技',
           spe3dContent:
             '獨立開發網站，從使用者體驗設計、前端開發與測試維護，前端部屬上線，並協助後端資料庫建置與串接。',
-          spe3dDescription: `。 幫助公司在Epson innovation challenges 2025獲得佳作。
-                              。 公司產品開發: FunkAI, imorph雲平台系統, 簡少年命理專案, Epson Connenct api專案。
-                              。 AI Model串接與WebSocket即時連線、前端網站維護、Three.js實作。`,
+          spe3dDescription: `。 獨立負責網站開發專案：涵蓋使用者體驗設計（UIUX）、前端功能實作、測試與維護，並完成部署上線。另支援後端資料庫架構設計與 API 串接。
+                             。 榮獲 Epson Innovation Challenges 2025 佳作：協助公司產品參賽，展現創新與技術整合能力。
+                             。 公司產品研發經驗：
+                              - 整合 AI 模型至 Web 端，打造 AI 互動應用（AI 生成圖像 / 對話等）。
+                              - WebAR 擴增實境功能開發（基於 MindAR / Three.js）。
+                              - 串接 AI 模型與 WebSocket 實現即時通訊與即時回饋。
+                              - 前端網站開發、維護與 3D 元件開發（Three.js 實作）。`,
           chiperTitle: '軟體工程師',
           chiperFirm: '巨普科技',
           chiperContent:
@@ -235,7 +242,7 @@ i18n
           spe3dProjectDescription: `
                我在啟雲科技公司獨立擔任前端工程師一職，協助公司開發FunkAI、imorph雲平台系統、簡少年命理專案、Epson Connect api專案等產品，並於2025年 Epson innovation challenges 獲得佳作。
                
-               。 React, TypeScript, Three.js, GSAP, WebSocket
+               。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR
                。 畫面呈現、串接資料, 前端開發、測試維護、前端部屬上線
    
                在時間內獨立開發，完成UIUX 原型設計、前後端串接、前端功能開發、測試維護、上線部屬，並協助後端資料庫建置與部屬。
