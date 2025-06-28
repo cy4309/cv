@@ -15,6 +15,8 @@ import spe3d1 from '@/assets/img/jobs/spe3d/spe3d1.png';
 import spe3d2 from '@/assets/img/jobs/spe3d/spe3d2.png';
 import cycStudio1 from '@/assets/img/jobs/CycStudio-1.png';
 import cycStudio2 from '@/assets/img/jobs/CycStudio-2.png';
+import crawlRecruitmentPlatform1 from '@/assets/img/jobs/crawlRecruitmentPlatform-1.png';
+import crawlRecruitmentPlatform2 from '@/assets/img/jobs/crawlRecruitmentPlatform-2.png';
 
 function GalleryPage() {
   const { t } = useTranslation();
@@ -77,6 +79,13 @@ function GalleryPage() {
       href: 'https://cyc-studio.vercel.app/',
       imageUrl1: cycStudio1,
       imageUrl2: cycStudio2,
+    },
+    {
+      title: t('crawlRecruitmentProject'),
+      description: t('crawlRecruitmentProjectDescription'),
+      href: 'https://crawl-recruitment-platform.vercel.app/',
+      imageUrl1: crawlRecruitmentPlatform1,
+      imageUrl2: crawlRecruitmentPlatform2,
     },
   ];
   return (

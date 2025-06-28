@@ -81,12 +81,12 @@ i18n
           `,
 
           // TesimonialsSection
-          tesimonial: `With a passion for photography, art, design, and a deep appreciation for history and culture, my experiences abroad have only strengthened my love for this land.
-           
-            In my past work experience, I handled web-related projects, initially relying heavily on my partners' programming skills. This reliance motivated me to further my education in front-end technologies, transitioning from a 2D graphic world to creating 3D web animations. The process of coding and seeing the final dynamic website come to life, much like a magician's performance, has deeply inspired me to become a "web magician" and paint on the canvas of the web.
-            
-            Looking ahead, I aspire to contribute to your company with my web development skills and boundless creative ideas. I eagerly anticipate the opportunity to collaborate and receive correspondence from your esteemed company.
-          `,
+          // tesimonial: `With a passion for photography, art, design, and a deep appreciation for history and culture, my experiences abroad have only strengthened my love for this land.
+
+          //   In my past work experience, I handled web-related projects, initially relying heavily on my partners' programming skills. This reliance motivated me to further my education in front-end technologies, transitioning from a 2D graphic world to creating 3D web animations. The process of coding and seeing the final dynamic website come to life, much like a magician's performance, has deeply inspired me to become a "web magician" and paint on the canvas of the web.
+
+          //   Looking ahead, I aspire to contribute to your company with my web development skills and boundless creative ideas. I eagerly anticipate the opportunity to collaborate and receive correspondence from your esteemed company.
+          // `,
 
           //spe3d project
           spe3dProject: 'Speed3D Tech Projects',
@@ -147,6 +147,13 @@ i18n
             This is my personal side project, where I independently developed a website for a tattoo artist friend. The videos and photos featured are also part of my previous photography works.
             
             。 React, GSAP, Framer-motion
+          `,
+          //crawl recruitment project
+          crawlRecruitmentProject: 'Crawl Recruitment Platform',
+          crawlRecruitmentProjectDescription: `
+            This project is a job listing website that crawls data from recruitment platforms, featuring an AI agent built with FastAPI for job summarization and recommendations, deployed via Vercel.
+            
+            。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
           `,
         },
       },
@@ -224,13 +231,14 @@ i18n
           `,
 
           // TesimonialsSection
-          'MORE ABOUT ME': '更多關於我',
-          tesimonial: `喜好攝影藝術設計、喜愛歷史文化， 走過異鄉過後， 更讓我加深了對這片土地的熱愛。
-            
-            在過往的工作經驗中， 有承接網頁相關的案子， 當時都得仰賴夥伴的程式語言能力， 因此進修學習前端的相關技術， 從平面2D的世界轉移到3D的網站動畫。在平凡的打code中， 看到像魔術師般最終網站的動態呈現， 深深吸引著我想成為一名網站魔術師， 在網站的畫布上作畫。
-            
-            冀望未來能為貴司提供網頁製作的能力、源源不絕的創意企劃能力。 期待能與您共事、接到貴公司的來信。
-          `,
+          // 'MORE ABOUT ME': '更多關於我',
+          // tesimonial: `喜好攝影藝術設計、喜愛歷史文化， 走過異鄉過後， 更讓我加深了對這片土地的熱愛。
+
+          //   在過往的工作經驗中， 有承接網頁相關的案子， 當時都得仰賴夥伴的程式語言能力， 因此進修學習前端的相關技術， 從平面2D的世界轉移到3D的網站動畫。在平凡的打code中， 看到像魔術師般最終網站的動態呈現， 深深吸引著我想成為一名網站魔術師， 在網站的畫布上作畫。
+
+          //   冀望未來能為貴司提供網頁製作的能力、源源不絕的創意企劃能力。 期待能與您共事、接到貴公司的來信。
+          // `,
+          AWARDS: '獎項與重要成果',
 
           // Header
           // GalleryPage
@@ -297,6 +305,13 @@ i18n
              
              。 React, GSAP, Framer-motion
            `,
+          //crawl recruitment project
+          crawlRecruitmentProject: '上班不要看職缺網',
+          crawlRecruitmentProjectDescription: `
+            這是我做的一個職缺列表網站，會爬取招募平台的資料，並結合以 FastAPI 架設的 AI agent，提供職缺摘要與推薦功能，部署於 Vercel。
+            
+            。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
+          `,
         },
       },
     },

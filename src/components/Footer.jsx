@@ -10,7 +10,7 @@ function Footer() {
       >
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <p className="text-sm text-center text--tertiaryColor sm:mt-0 mt-4">
-            © 2024 Yucheng Chu, phone: 0916-530519, email: cy4309@gmail.com
+            © 2024 Yucheng Chu, phone: +886916-530519, email: cy4309@gmail.com
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             {/* facebook icon */}
