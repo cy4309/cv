@@ -10,12 +10,19 @@ i18n
         translation: {
           // IntroductionSection
           introduction: `
-            Graduating from the Queensland University of Technology in Australia provided me with practical internship experience and the development of bilingual proficiency. 
+            With hands-on experience in frontend development and AI agent integration, I specialize in web ecosystem engineering and interactive animations. I was also recognized at the 2025 Epson Innovation Challenge.
             
-            Enjoying the process of building meaningful connections and making new friends, my overseas experiences, where time with loved ones was limited, have instilled in me a deep appreciation for every moment. 
+            Originally starting out in UI/UX design while in Australia, I later transitioned into frontend development, focusing on interface logic, user flow, and technical implementation.
             
-            With a mindset of courage and continuous learning, I face challenges head-on without hesitation.
+            Passionate about crafting web experiences with depth and clarity, I look forward to the opportunity to collaborate with you and to hearing from your company.
           `,
+          // introduction: `
+          //   Graduating from the Queensland University of Technology in Australia provided me with practical internship experience and the development of bilingual proficiency.
+
+          //   Enjoying the process of building meaningful connections and making new friends, my overseas experiences, where time with loved ones was limited, have instilled in me a deep appreciation for every moment.
+
+          //   With a mindset of courage and continuous learning, I face challenges head-on without hesitation.
+          // `,
           // JobSection
           spe3dTitle: 'Frontend Engineer',
           spe3dFirm: 'Speed3D Technology',
@@ -162,8 +169,15 @@ i18n
           // IntroductionSection
           'FRONTEND DEVELOPER': '前端工程師',
           introduction: `
-            畢業於澳洲昆士蘭科技大學並在澳洲有實習實務經驗及雙語能力 ，喜好廣結善緣結交新朋友的我在海外體會到了聚少離多的場合，因此更珍惜每一分每一秒，對生活仍舊保持勇於挑戰與學習的心態，且面對挑戰永不退縮。
+            具備前端開發與 AI Agent 整合實作經驗，擅長網頁生態系整合與動畫互動，並於 2025 Epson Innovation Challenge 獲獎肯定。
+
+            起初於澳洲從事 UIUX 相關設計，後投入前端開發，專注於介面邏輯、使用者流程與技術實現。
+
+            熱衷打造具有深度體驗的網頁作品，期待能與您共事，並收到貴公司的來信。
           `,
+          // introduction: `
+          //   畢業於澳洲昆士蘭科技大學並在澳洲有實習實務經驗及雙語能力 ，喜好廣結善緣結交新朋友的我在海外體會到了聚少離多的場合，因此更珍惜每一分每一秒，對生活仍舊保持勇於挑戰與學習的心態，且面對挑戰永不退縮。
+          // `,
 
           // SkillSection
           SKILLS: '技能',
