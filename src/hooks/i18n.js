@@ -97,24 +97,54 @@ i18n
 
           //spe3d project
           spe3dProject: 'Speed3D Tech Projects',
+          // spe3dProjectDescription: `
+          //      I worked independently as a frontend engineer at Speed3D Technology Company, assisting the company in developing products such as FunkAI, imorph cloud platform system, Young Chien Numerology Project, Epson Connect API Project, and won the honorable mention in the 2025 Epson innovation challenges.
+
+          //      。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR.
+          //      。 Web presentation, Restful API, frontend development, testing and maintenance, frontend deployment.
+
+          //      Independently developed within the time limit, completed the UIUX prototype design, frontend and backend connection, frontend function development, testing and maintenance, online deployment, and assisted in the construction and deployment of the backend database.
+          //    `,
           spe3dProjectDescription: `
-               I worked independently as a frontend engineer at Speed3D Technology Company, assisting the company in developing products such as FunkAI, imorph cloud platform system, Young Chien Numerology Project, Epson Connect API Project, and won the honorable mention in the 2025 Epson innovation challenges.
-               
-               。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR.
-               。 Web presentation, Restful API, frontend development, testing and maintenance, frontend deployment.
-   
-               Independently developed within the time limit, completed the UIUX prototype design, frontend and backend connection, frontend function development, testing and maintenance, online deployment, and assisted in the construction and deployment of the backend database.
+              Worked as a solo Front-End Engineer at Spe3d Technology, responsible for full-cycle development from UI/UX prototyping to front-end and back-end integration. Successfully led and delivered multiple projects, including:
+
+              。FunkAI Game Platform: Developed a real-time AI image generation and queueing system using WebSocket, integrated with LinePay and PayPal. Achieved over 100 paid generations on launch day, driving both user engagement and revenue.
+              
+              。iMorph Cloud Platform: Built complete front-end modules enabling users to upload and generate naked-eye 3D models. Streamlined the UI flow to help enterprise users effectively manage 3D model assets.
+              
+              。Epson Connect API Integration: Implemented full OAuth authentication, scanning/printing job management, and API integration to allow remote printer control via web. Also integrated DALL·E for AI-generated visuals. Awarded Honorable Mention at the 2025 Epson Innovation Challenge.
+              
+              。Additional projects include Snap WebAR experiences and the Young Chien Numerology Project.
+
+                ▸ Tech Stack: React, TypeScript, GSAP, Three.js, WebSocket, WebAR
+                ▸ Responsibilities: Interactive UI development, API integration, testing and maintenance, front-end deployment
+                ▸ Key Achievements: Delivered all projects within 2–4 weeks, independently managing the entire development lifecycle from requirements to production. Also contributed to backend database architecture and deployment setup.
              `,
           //chiper project
           chiperInventoryProject: 'ChiperTech Inventory Management System',
-          chiperInventoryProjectDescription: `
-            This is one of my independently developed projects, assisting Chiper Technology and the National Chung Shan Institute of Science and Technology in developing a high-magnification optical system storage solution.
-            
-            。 Establishment of the SQL database.
-            。 Node.js to handle logic such as member login and permissions.
-            。 Vue3 for screen presentation and data concatenation.
+          // chiperInventoryProjectDescription: `
+          //   This is one of my independently developed projects, assisting Chiper Technology and the National Chung Shan Institute of Science and Technology in developing a high-magnification optical system storage solution.
 
-            Upon completion, the system can automatically calculate potential errors, helping colleagues reduce mistakes and enhance work efficiency.
+          //   。 Establishment of the SQL database.
+          //   。 Node.js to handle logic such as member login and permissions.
+          //   。 Vue3 for screen presentation and data concatenation.
+
+          //   Upon completion, the system can automatically calculate potential errors, helping colleagues reduce mistakes and enhance work efficiency.
+          // `,
+          chiperInventoryProjectDescription: `
+            Independently developed a high-magnification optical storage management system to support a collaborative project between Chiper Technology and the National Chung-Shan Institute of Science & Technology (NCSIST). The system was designed to track the storage and movement of precision optical components, aiming to reduce human error and improve internal workflow efficiency.
+
+            。Frontend Development: Built a real-time interactive interface using Vue 3, enabling data filtering, visual status indicators, and responsive user feedback.
+
+            。Backend Logic: Developed user authentication, role-based access control, and business logic processing with Node.js.
+
+            。Database Design: Designed and implemented an SQL database to manage part metadata, storage locations, and access records.
+
+            。Error-prone calculation processes were fully automated, significantly reducing the risk of human error. Key outcomes include:
+
+            ▸ 10% reduction in testing cycle time, as recognized by internal supervisors
+            ▸ Lowered manual rework rates, improving overall data stability
+            ▸ Enhanced collaboration and transparency between engineering and warehouse teams
           `,
           //annoMusuem project
           annoMuseumProject: 'Anno Museum',
@@ -261,24 +291,54 @@ i18n
 
           //spe3d project
           spe3dProject: '啟雲科技專案',
+          // spe3dProjectDescription: `
+          //      我在啟雲科技公司獨立擔任前端工程師一職，協助公司開發FunkAI、imorph雲平台系統、簡少年命理專案、Epson Connect api專案等產品，並於2025年 Epson innovation challenges 獲得佳作。
+
+          //      。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR
+          //      。 畫面呈現、串接資料, 前端開發、測試維護、前端部屬上線
+
+          //      在時間內獨立開發，完成UIUX 原型設計、前後端串接、前端功能開發、測試維護、上線部屬，並協助後端資料庫建置與部屬。
+          //    `,
           spe3dProjectDescription: `
-               我在啟雲科技公司獨立擔任前端工程師一職，協助公司開發FunkAI、imorph雲平台系統、簡少年命理專案、Epson Connect api專案等產品，並於2025年 Epson innovation challenges 獲得佳作。
-               
-               。 React, TypeScript, Three.js, GSAP, WebSocket, WebAR
-               。 畫面呈現、串接資料, 前端開發、測試維護、前端部屬上線
-   
-               在時間內獨立開發，完成UIUX 原型設計、前後端串接、前端功能開發、測試維護、上線部屬，並協助後端資料庫建置與部屬。
+              於啟雲科技公司擔任獨立前端工程師，負責從 UI/UX 原型設計到前後端整合的全流程開發。期間主導並完成多項專案，包括：
+
+              。FunkAI 遊戲平台：以 WebSocket 架構串接 AI 圖像生成與即時排隊等待系統，並接上LinePay與PayPal金流，達到當日生成100筆，實際為公司創造金流與人流。
+              
+              。iMorph 雲平台系統：建立完整前端模組並整合資料，供業主上傳和製作裸視3D模型。優化使用者操作流程，協助企業用戶有效管理模型資源。
+              
+              。Epson Connect API 整合專案：完成 OAuth 流程、掃描列印任務設定與 Epson API 串接，允許使用者透過網頁遠端操控印表機，另接上Dall E圖像生成。專案於 2025 Epson Innovation Challenge 中獲得佳作肯定。
+              
+              。另還有Snap WebAR, 簡少年命理專案等。
+
+                ▸ 使用技術：React, TypeScript, GSAP, Three.js, WebSocket, WebAR
+                ▸ 負責項目：畫面互動開發、資料串接、測試與維護、前端部署上線
+                ▸ 成果指標：專案平均開發時程控制於 2–4 週內，獨立完成從需求確認到正式部署流程，並協助後端資料庫架構規劃與環境設定。
              `,
           //chiper project
           chiperInventoryProject: '巨普科技倉儲系統',
-          chiperInventoryProjectDescription: `
-            這是我其中一個獨立開發的案例，幫助巨普科技與中科院合作案做的一個高倍率光學系統倉儲系統。
-            
-            。 SQL 資料庫建置
-            。 Node.Js 處理會員登入、權限等邏輯
-            。 Vue3 畫面呈現、串接資料
+          // chiperInventoryProjectDescription: `
+          //   這是我其中一個獨立開發的案例，幫助巨普科技與中科院合作案做的一個高倍率光學系統倉儲系統。
 
-            將有可能會出錯的地方全部自動化計算，幫助公司同仁減少出錯的機會，也加快工作效率。
+          //   。 SQL 資料庫建置
+          //   。 Node.Js 處理會員登入、權限等邏輯
+          //   。 Vue3 畫面呈現、串接資料
+
+          //   將有可能會出錯的地方全部自動化計算，幫助公司同仁減少出錯的機會，也加快工作效率。
+          // `,
+          chiperInventoryProjectDescription: `
+            獨立開發完成 高倍率光學系統倉儲管理系統，協助 巨普科技 與 中科院（NCSIST） 合作專案。該系統用於追蹤高精度光學元件的入出庫與存放流程，減少人為操作錯誤並提升內部作業效率。
+
+            。前端開發：採用 Vue 3 建立即時互動式介面，提供資料篩選、狀態視覺提示與操作回饋功能。
+
+            。後端邏輯：以 Node.js 開發使用者登入、角色權限控管與商業邏輯處理。
+
+            。資料庫建置：設計並實作 SQL 資料庫，管理零件資訊、倉儲位置與存取記錄。
+
+            。針對容易出錯的計算流程進行自動化設計，大幅減少操作錯誤機率。實際成效包含：
+            
+            ▸ 測試週期時間縮短約 10%，獲內部主管回饋肯定
+            ▸ 降低人工重工次數，提升整體資料穩定性
+            ▸ 提高工程與倉儲團隊間的協同效率與資訊透明度
           `,
           //annoMusuem project
           annoMuseumProject: '新世紀博物館',
