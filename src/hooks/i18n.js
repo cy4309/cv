@@ -192,6 +192,15 @@ i18n
             
             。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
           `,
+          //mindbay project
+          mindbayProject: 'MindBay',
+          mindbayProjectDescription: `
+            MindBay is a calming sound space for your mind.
+            It features curated natural sceneries paired with soothing audio, or lets you freely input a YouTube link to create a personalized ambient experience.
+            Designed for effortless relaxation and mindful breaks — no login required, just press play.
+            
+            。 Device-adaptive video loading, Video lazy loading, Optimized MP4 compression via FFmpeg
+          `,
         },
       },
       zh: {
@@ -385,6 +394,13 @@ i18n
             這是我做的一個職缺列表網站，會爬取招募平台的資料，並結合以 FastAPI 架設的 AI agent，提供職缺摘要與推薦功能，部署於 Vercel。
             
             。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
+          `,
+          //mindbay project
+          mindbayProject: '心灣',
+          mindbayProjectDescription: `
+            心灣是一個讓你沉澱心靈的聲音空間。精選自然場景搭配音樂，或自由輸入 YouTube 連結，營造專屬放空環境。
+            
+            。 Device-adaptive video loading, Video lazy loading, Optimized MP4 compression via FFmpeg
           `,
         },
       },

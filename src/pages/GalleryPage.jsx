@@ -17,11 +17,13 @@ import cycStudio1 from '@/assets/img/jobs/CycStudio-1.png';
 import cycStudio2 from '@/assets/img/jobs/CycStudio-2.png';
 import crawlRecruitmentPlatform1 from '@/assets/img/jobs/crawlRecruitmentPlatform-1.png';
 import crawlRecruitmentPlatform2 from '@/assets/img/jobs/crawlRecruitmentPlatform-2.png';
+import mindbay1 from '@/assets/img/jobs/mindbay-1.png';
+import mindbay2 from '@/assets/img/jobs/mindbay-2.png';
 
 function GalleryPage() {
   const { t } = useTranslation();
   const [isSelectedProject, setIsSelectedProject] = useState(true);
-  const [selectedProject, setSelectedProject] = useState(1);
+  const [selectedProject, setSelectedProject] = useState('projects');
 
   const galleryData = [
     {
@@ -87,6 +89,13 @@ function GalleryPage() {
       imageUrl1: crawlRecruitmentPlatform1,
       imageUrl2: crawlRecruitmentPlatform2,
     },
+    {
+      title: t('mindbayProject'),
+      description: t('mindbayProjectDescription'),
+      href: 'https://mindbay.vercel.app/',
+      imageUrl1: mindbay1,
+      imageUrl2: mindbay2,
+    },
   ];
   return (
     <div className="gallery__wrapper">
@@ -104,7 +113,7 @@ function GalleryPage() {
                 }`}
                 onClick={() => {
                   setIsSelectedProject(true);
-                  setSelectedProject(1);
+                  setSelectedProject('projects');
                 }}
               >
                 Projects
@@ -117,14 +126,14 @@ function GalleryPage() {
                 }`}
                 onClick={() => {
                   setIsSelectedProject(false);
-                  setSelectedProject(2);
+                  setSelectedProject('sideProjects');
                 }}
               >
                 Side-Projects
               </h5>
             </div>
           </div>
-          {selectedProject === 1 &&
+          {selectedProject === 'projects' &&
             galleryData.map((el, i) => (
               <GallerySection
                 key={i}
@@ -136,7 +145,7 @@ function GalleryPage() {
                 notes={el.notes}
               />
             ))}
-          {selectedProject === 2 &&
+          {selectedProject === 'sideProjects' &&
             sideProjectsData.map((el, i) => (
               <GallerySection
                 key={i}
