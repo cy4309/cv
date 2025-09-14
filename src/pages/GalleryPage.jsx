@@ -29,47 +29,63 @@ function GalleryPage() {
     {
       title: t('spe3dProject'),
       description: t('spe3dProjectDescription'),
-      href: 'https://epson-hey-echo.vercel.app/login',
+      hrefs: [
+        { label: 'WebAR Huye', url: 'https://webar-huye-next.vercel.app/' },
+        { label: 'Epson Echo', url: 'https://epson-hey-echo.vercel.app/login' },
+        { label: 'FunkAI', url: 'https://funkai.ai/' },
+        { label: 'iMorph', url: 'https://imorph.spe3d.co/' },
+        {
+          label: 'Snap Camera Kit',
+          url: 'https://snap-camera-kit-web.vercel.app/',
+        },
+      ],
       imageUrl1: spe3d1,
       imageUrl2: spe3d2,
-      // notes: `
-      //   FunkAI: https://ai.funk-ar.com/,
-      //   imorph: https://imorph.spe3d.co/,
-      //   YoungChienNumerologyProject,: https://face-fortune-tool.vercel.app/
-      //   `,
     },
     {
       title: t('chiperInventoryProject'),
       description: t('chiperInventoryProjectDescription'),
-      href: 'http://218.35.165.194:8081/Login',
+      hrefs: [
+        { label: 'Chiper Inventory', url: 'http://218.35.165.194:8081/Login' },
+      ],
       imageUrl1: chiper1,
       imageUrl2: chiper2,
     },
     {
       title: t('annoMuseumProject'),
       description: t('annoMuseumProjectDescription'),
-      href: 'https://tibamef2e.com/tfd105/g4/index.html',
+      hrefs: [
+        {
+          label: 'Anno Museum',
+          url: 'https://tibamef2e.com/tfd105/g4/index.html',
+        },
+      ],
       imageUrl1: AnnoMuseum1,
       imageUrl2: AnnoMuseum2,
     },
     {
       title: t('cycTattoProject'),
       description: t('cycTattoProjectDescription'),
-      href: 'https://cy4309.github.io/TFD105_01CYC/MainPage.html',
+      hrefs: [
+        {
+          label: 'CYC Tattoo',
+          url: 'https://cy4309.github.io/TFD105_01CYC/MainPage.html',
+        },
+      ],
       imageUrl1: CYCTattoo1,
       imageUrl2: CYCTattoo2,
     },
     {
       title: t('shanhihamProject'),
       description: t('shanhihamProjectDescription'),
-      href: 'https://www.sanhiham1956.com',
+      hrefs: [{ label: 'Shanhiham', url: 'https://www.sanhiham1956.com' }],
       imageUrl1: ShanhiHam1,
       imageUrl2: ShanhiHam2,
     },
     {
       title: t('airloftProject'),
       description: t('airloftProjectDescription'),
-      href: 'https://www.airloft.com.tw',
+      hrefs: [{ label: 'Airloft', url: 'https://www.airloft.com.tw' }],
       imageUrl1: Airloft1,
       imageUrl2: Airloft2,
     },
@@ -78,21 +94,26 @@ function GalleryPage() {
     {
       title: t('cycStudioProject'),
       description: t('cycStudioProjectDescription'),
-      href: 'https://cyc-studio.vercel.app/',
+      hrefs: [{ label: 'CYC Studio', url: 'https://cyc-studio.vercel.app/' }],
       imageUrl1: cycStudio1,
       imageUrl2: cycStudio2,
     },
     {
       title: t('crawlRecruitmentProject'),
       description: t('crawlRecruitmentProjectDescription'),
-      href: 'https://crawl-recruitment-platform.vercel.app/',
+      hrefs: [
+        {
+          label: 'Crawl Recruitment Platform',
+          url: 'https://crawl-recruitment-platform.vercel.app/',
+        },
+      ],
       imageUrl1: crawlRecruitmentPlatform1,
       imageUrl2: crawlRecruitmentPlatform2,
     },
     {
       title: t('mindbayProject'),
       description: t('mindbayProjectDescription'),
-      href: 'https://mindbay.vercel.app/',
+      hrefs: [{ label: 'Mindbay', url: 'https://mindbay.vercel.app/' }],
       imageUrl1: mindbay1,
       imageUrl2: mindbay2,
     },
@@ -139,10 +160,9 @@ function GalleryPage() {
                 key={i}
                 title={el.title}
                 description={el.description}
-                href={el.href}
+                hrefs={el.hrefs}
                 imageUrl1={el.imageUrl1}
                 imageUrl2={el.imageUrl2}
-                notes={el.notes}
               />
             ))}
           {selectedProject === 'sideProjects' &&
@@ -151,10 +171,9 @@ function GalleryPage() {
                 key={i}
                 title={el.title}
                 description={el.description}
-                href={el.href}
+                hrefs={el.hrefs}
                 imageUrl1={el.imageUrl1}
                 imageUrl2={el.imageUrl2}
-                notes={el.notes}
               />
             ))}
         </div>
