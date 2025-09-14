@@ -108,11 +108,13 @@ i18n
           spe3dProjectDescription: `
               Worked as a solo Front-End Engineer at Spe3d Technology, responsible for full-cycle development from UI/UX prototyping to front-end and back-end integration. Successfully led and delivered multiple projects, including:
 
+              。WebAR Huye: Built a mobile AR experience with MindAR, R3F, and model-viewer, using MediaPipe for facial tracking. Powered by Next.js to optimize performance and library integration. A cultural-tech project promoting folk art × interactive AR.
+
               。FunkAI Game Platform: Developed a real-time AI image generation and queueing system using WebSocket, integrated with LinePay and PayPal. Achieved over 100 paid generations on launch day, driving both user engagement and revenue.
               
-              。iMorph Cloud Platform: Built complete front-end modules enabling users to upload and generate naked-eye 3D models. Streamlined the UI flow to help enterprise users effectively manage 3D model assets.
-              
               。Epson Connect API Integration: Implemented full OAuth authentication, scanning/printing job management, and API integration to allow remote printer control via web. Also integrated DALL·E for AI-generated visuals. Awarded Honorable Mention at the 2025 Epson Innovation Challenge.
+              
+              。iMorph Cloud Platform: Built complete front-end modules enabling users to upload and generate naked-eye 3D models. Streamlined the UI flow to help enterprise users effectively manage 3D model assets.
               
               。Additional projects include Snap WebAR experiences and the Young Chien Numerology Project.
 
@@ -311,11 +313,13 @@ i18n
           spe3dProjectDescription: `
               於啟雲科技公司擔任獨立前端工程師，負責從 UI/UX 原型設計到前後端整合的全流程開發。期間主導並完成多項專案，包括：
 
+              。WebAR 虎爺: 使用 MindAR 圖標辨識與 R3F 結合 Model-viewer，實作 iOS/Android 裝置上的 AR 模型展示，並利用Mediapipe來追蹤臉部姿態、效能與套件考量的問題則使用Next.js來克服。專案旨在推廣「民俗文化 × 科技互動」融合應用，以提升文化AR體驗的現代感與趣味性。
+
               。FunkAI 遊戲平台：以 WebSocket 架構串接 AI 圖像生成與即時排隊等待系統，並接上LinePay與PayPal金流，達到當日生成100筆，實際為公司創造金流與人流。
               
-              。iMorph 雲平台系統：建立完整前端模組並整合資料，供業主上傳和製作裸視3D模型。優化使用者操作流程，協助企業用戶有效管理模型資源。
-              
               。Epson Connect API 整合專案：完成 OAuth 流程、掃描列印任務設定與 Epson API 串接，允許使用者透過網頁遠端操控印表機，另接上Dall E圖像生成。專案於 2025 Epson Innovation Challenge 中獲得佳作肯定。
+              
+              。iMorph 雲平台系統：建立完整前端模組並整合資料，供業主上傳和製作裸視3D模型。優化使用者操作流程，協助企業用戶有效管理模型資源。
               
               。另還有Snap WebAR, 簡少年命理專案等。
 

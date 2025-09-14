@@ -29,7 +29,7 @@ function SkillSection() {
       title: 'Deployment & Others',
       subtitle: `- Vercel, Render, Heroku, AppsScript,
       - Git, Github, Scrum,
-      - Vite, Gulp, Webpack,`,
+      - Next, Vite, Gulp, Webpack,`,
     },
     {
       icon: <AddCircleOutlineIcon />,
