@@ -17,6 +17,8 @@ import cycStudio1 from '@/assets/img/jobs/CycStudio-1.png';
 import cycStudio2 from '@/assets/img/jobs/CycStudio-2.png';
 import crawlRecruitmentPlatform1 from '@/assets/img/jobs/crawlRecruitmentPlatform-1.png';
 import crawlRecruitmentPlatform2 from '@/assets/img/jobs/crawlRecruitmentPlatform-2.png';
+import imageCaptioningOCR1 from '@/assets/img/jobs/imageCaptioningOCR-1.png';
+import imageCaptioningOCR2 from '@/assets/img/jobs/imageCaptioningOCR-2.png';
 import mindbay1 from '@/assets/img/jobs/mindbay-1.png';
 import mindbay2 from '@/assets/img/jobs/mindbay-2.png';
 
@@ -109,6 +111,18 @@ function GalleryPage() {
       ],
       imageUrl1: crawlRecruitmentPlatform1,
       imageUrl2: crawlRecruitmentPlatform2,
+    },
+    {
+      title: t('imageCaptioningOCRProject'),
+      description: t('imageCaptioningOCRProjectDescription'),
+      hrefs: [
+        {
+          label: 'Image Captioning OCR',
+          url: 'https://image-captioning-flame.vercel.app/',
+        },
+      ],
+      imageUrl1: imageCaptioningOCR1,
+      imageUrl2: imageCaptioningOCR2,
     },
     {
       title: t('mindbayProject'),

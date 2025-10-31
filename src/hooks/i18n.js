@@ -194,6 +194,13 @@ i18n
             
             。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
           `,
+          //image captioning OCR Project
+          imageCaptioningOCRProject: 'Image Captioning OCR',
+          imageCaptioningOCRProjectDescription: `
+            This project is an AI-powered image-to-text service built with FastAPI and the API Ninjas OCR API, enabling lightweight deployment on Render’s free plan. It highlights flexible architecture that can switch to PyTorch-based models for on-device image captioning.
+            
+            。 Hugging Face, API Ninjas, FastAPI, Python, Vercel, Render
+          `,
           //mindbay project
           mindbayProject: 'MindBay',
           mindbayProjectDescription: `
@@ -398,6 +405,13 @@ i18n
             這是我做的一個職缺列表網站，會爬取招募平台的資料，並結合以 FastAPI 架設的 AI agent，提供職缺摘要與推薦功能，部署於 Vercel。
             
             。 AI Agent, FastAPI, Python, Vercel, Serverless Functions
+          `,
+          //image captioning OCR Project
+          imageCaptioningOCRProject: 'AI 圖像文字辨識專案',
+          imageCaptioningOCRProjectDescription: `
+            這是一個以 FastAPI 建構的 AI 圖像文字辨識服務，透過 API Ninjas OCR API 實現輕量化運作，部署於 Render 免費方案。專案架構具備高度彈性，可切換為基於 PyTorch 的模型以支援本地端圖像描述推論。
+            
+            。 Hugging Face, API Ninjas, FastAPI, Python, Vercel, Render
           `,
           //mindbay project
           mindbayProject: '心灣',
