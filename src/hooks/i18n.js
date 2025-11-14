@@ -199,7 +199,7 @@ i18n
           imageCaptioningOCRProjectDescription: `
             This project is an AI-powered image-to-text service built with FastAPI and the API Ninjas OCR API, enabling lightweight deployment on Render’s free plan. It highlights flexible architecture that can switch to PyTorch-based models for on-device image captioning.
             
-            。 Hugging Face, API Ninjas, FastAPI, Render, Docker, Nginx
+            。 Hugging Face, API Ninjas, FastAPI, Render, Docker, Nginx, CI/CD, Vitest
           `,
           //mindbay project
           mindbayProject: 'MindBay',
@@ -411,7 +411,7 @@ i18n
           imageCaptioningOCRProjectDescription: `
             這是一個以 FastAPI 建構的 AI 圖像文字辨識服務，透過 API Ninjas OCR API 實現輕量化運作，部署於 Render 免費方案。專案架構具備高度彈性，可切換為基於 PyTorch 的模型以支援本地端圖像描述推論。
             
-            。 Hugging Face, API Ninjas, FastAPI, Render, Docker, Nginx
+            。 Hugging Face, API Ninjas, FastAPI, Render, Docker, Nginx, CI/CD, Vitest
           `,
           //mindbay project
           mindbayProject: '心灣',
