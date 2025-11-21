@@ -21,6 +21,8 @@ import imageCaptioningOCR1 from '@/assets/img/jobs/imageCaptioningOCR-1.png';
 import imageCaptioningOCR2 from '@/assets/img/jobs/imageCaptioningOCR-2.png';
 import mindbay1 from '@/assets/img/jobs/mindbay-1.png';
 import mindbay2 from '@/assets/img/jobs/mindbay-2.png';
+import fitCycle1 from '@/assets/img/jobs/fitCycle-1.png';
+import fitCycle2 from '@/assets/img/jobs/fitCycle-2.png';
 
 function GalleryPage() {
   const { t } = useTranslation();
@@ -130,6 +132,13 @@ function GalleryPage() {
       hrefs: [{ label: 'Mindbay', url: 'https://mindbay.vercel.app/' }],
       imageUrl1: mindbay1,
       imageUrl2: mindbay2,
+    },
+    {
+      title: t('fitCycleProject'),
+      description: t('fitCycleProjectDescription'),
+      hrefs: [{ label: 'Fit Cycle', url: 'https://fit-cycle.vercel.app/' }],
+      imageUrl1: fitCycle1,
+      imageUrl2: fitCycle2,
     },
   ];
   return (

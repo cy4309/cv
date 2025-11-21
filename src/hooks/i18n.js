@@ -210,6 +210,13 @@ i18n
             
             。 Device-adaptive video loading, Video lazy loading, Optimized MP4 compression via FFmpeg
           `,
+          //fit cycle project
+          fitCycleProject: 'Fit Cycle',
+          fitCycleProjectDescription: `
+            This is a personalized fitness and nutrition tracking system built with React + GAS, using Google Sheets as a lightweight backend database, allowing it to function serverlessly. The system automatically calculates each user’s daily TDEE and three-phase carb strategy (low / medium / high) based on their body metrics, and instantly compares daily nutrient intake against recommended targets.
+            
+            。 Google Apps Script, Redux Toolkit
+          `,
         },
       },
       zh: {
@@ -419,6 +426,13 @@ i18n
             心灣是一個讓你沉澱心靈的聲音空間。精選自然場景搭配音樂，或自由輸入 YouTube 連結，營造專屬放空環境。
             
             。 Device-adaptive video loading, Video lazy loading, Optimized MP4 compression via FFmpeg
+          `,
+          //fit cycle project
+          fitCycleProject: '健康循環',
+          fitCycleProjectDescription: `
+            這是一個以 React + GAS 建構的個人化健身飲食紀錄系統，透過 Google Sheets 作為輕量後端資料庫，免伺服器即可運作。系統會依照使用者身體數據自動計算每日 TDEE 與三階段碳水策略（低 / 中 / 高），並將每日輸入的營養攝取量即時比對建議值。
+            
+            。 Google Apps Script, Redux Toolkit
           `,
         },
       },
