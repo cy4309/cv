@@ -185,7 +185,7 @@ i18n
           cycStudioProjectDescription: `
             This is my personal side project, where I independently developed a website for a tattoo artist friend. The videos and photos featured are also part of my previous photography works.
             
-            。 React, GSAP, Framer-motion
+            。 React, GSAP, Framer-motion, Google OAuth, Google Apps Script
           `,
           //crawl recruitment project
           crawlRecruitmentProject: 'Crawl Recruitment Platform',
@@ -404,7 +404,7 @@ i18n
           cycStudioProjectDescription: `
             這是我個人的side project，獨立開發的網站，裡面的影片與照片也都是我以前的攝影作品。
              
-             。 React, GSAP, Framer-motion
+             。 React, GSAP, Framer-motion, Google OAuth, Google Apps Script
            `,
           //crawl recruitment project
           crawlRecruitmentProject: '上班不要看職缺網',
