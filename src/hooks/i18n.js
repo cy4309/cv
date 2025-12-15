@@ -181,11 +181,13 @@ i18n
             In Taipei, in 2019, my friends and I launched a rental housing platform. From ground zero, we developed the website structure and attracted 1,000 users within two months, with a peak of 2,000 views in a single day. I contributed to the UI visual design of the website and managed its social media operations, including content creation and shooting.
           `,
           //cyc studio project
-          cycStudioProject: 'CYC Studio',
+          cycStudioProject: 'CYC Zine',
           cycStudioProjectDescription: `
-            This is my personal side project, where I independently developed a website for a tattoo artist friend. The videos and photos featured are also part of my previous photography works.
+            This project is a cultural events aggregation and bookmarking platform built with Next.js, integrating LINE Login OAuth, LIFF, Google Login, and Google Apps Script as a lightweight backend data layer.
+            It allows users to seamlessly sign in from both LINE Official Account Rich Menus and standard web browsers, with user preferences and favorites synchronized across devices.
+            The architecture emphasizes scalability and real-world deployment flexibility, making it ready for future extensions such as LINE push notifications, LINE Pay, or MINI App integration, while maintaining a low-cost, maintainable, and decoupled frontend-backend design.
             
-            。 React, GSAP, Framer-motion, Google OAuth, Google Apps Script
+            。 Next.js, GSAP, Framer-motion, Google OAuth, Google Apps Script, LineLiff, Line Login, Line OA
           `,
           //crawl recruitment project
           crawlRecruitmentProject: 'Crawl Recruitment Platform',
@@ -400,11 +402,13 @@ i18n
             2019年我和朋友在台北創業架設的一個租屋網平台，從0到目前看到的網站架構，2個月內用戶數也從原本的0來到了1000人、單日瀏覽次數最高也達到2000人，其中參與開發網站的UI視覺設計，以及後續社群網站的經營與拍攝內容之工作。
           `,
           //cyc studio project
-          cycStudioProject: 'CYC 工作室',
+          cycStudioProject: 'CYC 獨立雜誌',
           cycStudioProjectDescription: `
-            這是我個人的side project，獨立開發的網站，裡面的影片與照片也都是我以前的攝影作品。
+            本專案是一個以 Next.js 為核心的藝文活動聚合與收藏平台，整合 LINE Login OAuth、LIFF、Google Login 與 Google Apps Script作為輕量後端資料層。
+            系統支援使用者在 LINE 官方帳號 Rich Menu 或一般瀏覽器中無縫登入，並將收藏行為同步至雲端，確保跨裝置的一致體驗。
+            整體架構著重於可延展性與實務部署彈性，能依需求擴充至 LINE 推播、LINE Pay 或 MINI App 生態，同時維持低成本與易維護的前後端分離設計。
              
-             。 React, GSAP, Framer-motion, Google OAuth, Google Apps Script
+             。 Next.js, GSAP, Framer-motion, Google OAuth, Google Apps Script, LineLiff, Line Login, Line OA
            `,
           //crawl recruitment project
           crawlRecruitmentProject: '上班不要看職缺網',

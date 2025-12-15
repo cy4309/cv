@@ -98,7 +98,7 @@ function GalleryPage() {
     {
       title: t('cycStudioProject'),
       description: t('cycStudioProjectDescription'),
-      hrefs: [{ label: 'CYC Studio', url: 'https://cyc-studio.vercel.app/' }],
+      hrefs: [{ label: 'CYC Zine', url: 'https://cyc-zine.vercel.app/' }],
       imageUrl1: cycStudio1,
       imageUrl2: cycStudio2,
     },
