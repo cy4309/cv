@@ -9,6 +9,7 @@ i18n
       en: {
         translation: {
           // IntroductionSection
+          name: 'Yucheng Chu',
           introduction: `
             With hands-on experience in frontend development and AI agent integration, I specialize in web ecosystem engineering and interactive animations. I was also recognized at the 2025 Epson Innovation Challenge.
             
@@ -224,6 +225,7 @@ i18n
       zh: {
         translation: {
           // IntroductionSection
+          name: '朱禹丞',
           'FRONTEND DEVELOPER': '前端工程師',
           introduction: `
             具備前端開發與 AI Agent 整合實作經驗，擅長網頁生態系整合與動畫互動，並於 2025 Epson Innovation Challenge 獲獎肯定。

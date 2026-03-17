@@ -122,10 +122,8 @@ function IntroductionSection() {
         </div> */}
         {/* <div className="lg:flex-grow md:w-1/2 flex justify-center items-center text-center flex-col md:items-start md:text-left md:mb-0"> */}
         <div className="flex flex-col items-center justify-center">
-          <h1 className="heading">
-            {t(`FRONTEND DEVELOPER`)}
-            {/* <br className="hidden lg:inline-block" />readymade gluten */}
-          </h1>
+          {/* <h1 className="heading">{t(`FRONTEND DEVELOPER`)}</h1> */}
+          <h1 className="sr-only">{t('name')}</h1>
           <span className="line--decorated"></span>
           <div id="container--p5" className="w-1/2 relative">
             {/* p5 將在這個 div 中創建圖片 */}
