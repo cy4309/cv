@@ -11,10 +11,12 @@ import ShanhiHam1 from '@/assets/img/jobs/ShanhiHam-1.png';
 import ShanhiHam2 from '@/assets/img/jobs/ShanhiHam-2.png';
 import Airloft1 from '@/assets/img/jobs/Airloft-1.png';
 import Airloft2 from '@/assets/img/jobs/Airloft-2.png';
-import spe3d1 from '@/assets/img/jobs/spe3d/spe3d1.png';
-import spe3d2 from '@/assets/img/jobs/spe3d/spe3d2.png';
-import cycStudio1 from '@/assets/img/jobs/CycStudio-1.png';
-import cycStudio2 from '@/assets/img/jobs/CycStudio-2.png';
+import spe3d1 from '@/assets/img/jobs/spe3d/spe3d-1.png';
+import spe3d2 from '@/assets/img/jobs/spe3d/spe3d-2.png';
+import cycStudio1 from '@/assets/img/jobs/cycStudio-1.png';
+import cycStudio2 from '@/assets/img/jobs/cycStudio-2.png';
+import cycZine1 from '@/assets/img/jobs/CycZine-1.png';
+import cycZine2 from '@/assets/img/jobs/CycZine-2.png';
 import crawlRecruitmentPlatform1 from '@/assets/img/jobs/crawlRecruitmentPlatform-1.png';
 import crawlRecruitmentPlatform2 from '@/assets/img/jobs/crawlRecruitmentPlatform-2.png';
 import imageCaptioningOCR1 from '@/assets/img/jobs/imageCaptioningOCR-1.png';
@@ -34,14 +36,15 @@ function GalleryPage() {
       title: t('spe3dProject'),
       description: t('spe3dProjectDescription'),
       hrefs: [
-        { label: 'WebAR Huye', url: 'https://webar-huye-next.vercel.app/' },
         { label: 'Epson Echo', url: 'https://epson-hey-echo.vercel.app/login' },
+        { label: 'LRP Anthelios', url: 'https://lrp.spe3d.co/' },
+        { label: 'WebAR Huye', url: 'https://webar-huye-next.vercel.app/' },
         { label: 'FunkAI', url: 'https://funkai.ai/' },
         { label: 'iMorph', url: 'https://imorph.spe3d.co/' },
-        {
-          label: 'Snap Camera Kit',
-          url: 'https://snap-camera-kit-web.vercel.app/',
-        },
+        // {
+        //   label: 'Snap Camera Kit',
+        //   url: 'https://snap-camera-kit-web.vercel.app/',
+        // },
       ],
       imageUrl1: spe3d1,
       imageUrl2: spe3d2,
@@ -98,9 +101,17 @@ function GalleryPage() {
     {
       title: t('cycStudioProject'),
       description: t('cycStudioProjectDescription'),
-      hrefs: [{ label: 'CYC Zine', url: 'https://cyc-zine.vercel.app/' }],
+      hrefs: [{ label: 'CYC Studio', url: 'https://cyc-studio.com' }],
       imageUrl1: cycStudio1,
       imageUrl2: cycStudio2,
+    },
+    {
+      title: t('cycZineProject'),
+      description: t('cycZineProjectDescription'),
+      // hrefs: [{ label: 'CYC Zine', url: 'https://cyc-zine.vercel.app/' }],
+      hrefs: [{ label: 'CYC Zine', url: 'https://zine.cyc-studio.com' }],
+      imageUrl1: cycZine1,
+      imageUrl2: cycZine2,
     },
     {
       title: t('crawlRecruitmentProject'),

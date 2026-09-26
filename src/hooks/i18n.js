@@ -109,11 +109,13 @@ i18n
           spe3dProjectDescription: `
               Worked as a solo Front-End Engineer at Spe3d Technology, responsible for full-cycle development from UI/UX prototyping to front-end and back-end integration. Successfully led and delivered multiple projects, including:
 
+              。Epson Connect API Integration: Implemented full OAuth authentication, scanning/printing job management, and API integration to allow remote printer control via web. Also integrated DALL·E for AI-generated visuals. Awarded Honorable Mention at the Epson Innovation Challenge.
+
+              。LRP Anthelios: Independently developed. Next.js on the front end, Python on the back end calling the ChatGPT API to generate images, with Docker running horizontally scaled imagegen and worker services for high concurrent demand, then linked to the kiosk so a QR scan dispenses the trial kit. Image results and campaign messages are pushed through La Roche-Posay’s official LINE account. About 14,030 views, 9,660 participants, 10,234 generations, 415 image shares, 7,079 new followers, and 415 raffle entries.
+              
               。WebAR Huye: Built a mobile AR experience with MindAR, R3F, and model-viewer, using MediaPipe for facial tracking. Powered by Next.js to optimize performance and library integration. A cultural-tech project promoting folk art × interactive AR.
 
               。FunkAI Game Platform: Developed a real-time AI image generation and queueing system using WebSocket, integrated with LinePay and PayPal. Achieved over 100 paid generations on launch day, driving both user engagement and revenue.
-              
-              。Epson Connect API Integration: Implemented full OAuth authentication, scanning/printing job management, and API integration to allow remote printer control via web. Also integrated DALL·E for AI-generated visuals. Awarded Honorable Mention at the 2025 Epson Innovation Challenge.
               
               。iMorph Cloud Platform: Built complete front-end modules enabling users to upload and generate naked-eye 3D models. Streamlined the UI flow to help enterprise users effectively manage 3D model assets.
               
@@ -182,8 +184,16 @@ i18n
             In Taipei, in 2019, my friends and I launched a rental housing platform. From ground zero, we developed the website structure and attracted 1,000 users within two months, with a peak of 2,000 views in a single day. I contributed to the UI visual design of the website and managed its social media operations, including content creation and shooting.
           `,
           //cyc studio project
-          cycStudioProject: 'CYC Zine',
+          cycStudioProject: 'CYC Studio',
           cycStudioProjectDescription: `
+            CYC Studio is a web studio I run for creative interaction and visual experience. The site presents work across interactive and motion-driven websites, WebAR and 3D experiences, generative AI integration, and system and API connections such as LINE, OAuth, and CMS.
+            It follows the path from visual design and interaction development through data integration and system delivery, combining motion, technology, and narrative into digital products that are both functional and considered.
+            
+            。 Interactive websites, WebAR / 3D, Generative AI, LINE, OAuth, CMS
+          `,
+          //cyc zine project
+          cycZineProject: 'CYC Zine',
+          cycZineProjectDescription: `
             This project is a cultural events aggregation and bookmarking platform built with Next.js, integrating LINE Login OAuth, LIFF, Google Login, and Google Apps Script as a lightweight backend data layer.
             It allows users to seamlessly sign in from both LINE Official Account Rich Menus and standard web browsers, with user preferences and favorites synchronized across devices.
             The architecture emphasizes scalability and real-world deployment flexibility, making it ready for future extensions such as LINE push notifications, LINE Pay, or MINI App integration, while maintaining a low-cost, maintainable, and decoupled frontend-backend design.
@@ -331,12 +341,14 @@ i18n
           spe3dProjectDescription: `
               於啟雲科技公司擔任獨立前端工程師，負責從 UI/UX 原型設計到前後端整合的全流程開發。期間主導並完成多項專案，包括：
 
+              。Epson Connect API 整合專案：完成 OAuth 流程、掃描列印任務設定與 Epson API 串接，允許使用者透過網頁遠端操控印表機，另接上Dall E圖像生成。專案於 Epson Innovation Challenge 中獲得佳作肯定。
+
+              。LRP Anthelios：獨立開發。前端 Next.js、後端 Python 串接 ChatGPT API 生圖，Docker 運行 imagegen 與 worker，並做水平擴充以應付同時大量產圖，再與機台串接，掃碼後掉貨，並透過理膚寶水官方 LINE 帳號推播圖片結果與活動訊息。活動總瀏覽約 14,030 人、參與 9,660 人、生成 10,234 次，分享圖 415 人、新增粉絲 7,079 人、抽獎 415 人。
+              
               。WebAR 虎爺: 使用 MindAR 圖標辨識與 R3F 結合 Model-viewer，實作 iOS/Android 裝置上的 AR 模型展示，並利用Mediapipe來追蹤臉部姿態、效能與套件考量的問題則使用Next.js來克服。專案旨在推廣「民俗文化 × 科技互動」融合應用，以提升文化AR體驗的現代感與趣味性。
 
-              。FunkAI 遊戲平台：以 WebSocket 架構串接 AI 圖像生成與即時排隊等待系統，並接上LinePay與PayPal金流，達到當日生成100筆，實際為公司創造金流與人流。
-              
-              。Epson Connect API 整合專案：完成 OAuth 流程、掃描列印任務設定與 Epson API 串接，允許使用者透過網頁遠端操控印表機，另接上Dall E圖像生成。專案於 2025 Epson Innovation Challenge 中獲得佳作肯定。
-              
+              。FunkAI 遊戲平台：以 WebSocket 架構串接 AI 圖像生成與即時排隊等待系統，並接上LinePay與PayPal金流，達到當日生成100筆，實際為公司創造金流與人流。              
+
               。iMorph 雲平台系統：建立完整前端模組並整合資料，供業主上傳和製作裸視3D模型。優化使用者操作流程，協助企業用戶有效管理模型資源。
               
               。另還有Snap WebAR, 簡少年命理專案等。
@@ -404,8 +416,16 @@ i18n
             2019年我和朋友在台北創業架設的一個租屋網平台，從0到目前看到的網站架構，2個月內用戶數也從原本的0來到了1000人、單日瀏覽次數最高也達到2000人，其中參與開發網站的UI視覺設計，以及後續社群網站的經營與拍攝內容之工作。
           `,
           //cyc studio project
-          cycStudioProject: 'CYC 獨立雜誌',
+          cycStudioProject: 'CYC Studio',
           cycStudioProjectDescription: `
+            CYC Studio 是我經營的創意網頁工作室，專注於互動與視覺體驗。網站呈現的工作涵蓋互動與動態網站、WebAR / 3D 體驗、生成式 AI 整合，以及 LINE、OAuth、CMS 等系統與 API 串接。
+            從前端視覺設計、互動開發到資料串接與系統建置，把動態、技術與敘事收成兼具美感與功能的數位作品。
+            
+            。 互動與動態網站、WebAR / 3D、生成式 AI、LINE、OAuth、CMS
+          `,
+          //cyc zine project
+          cycZineProject: 'CYC Zine',
+          cycZineProjectDescription: `
             本專案是一個以 Next.js 為核心的藝文活動聚合與收藏平台，整合 LINE Login OAuth、LIFF、Google Login 與 Google Apps Script作為輕量後端資料層。
             系統支援使用者在 LINE 官方帳號 Rich Menu 或一般瀏覽器中無縫登入，並將收藏行為同步至雲端，確保跨裝置的一致體驗。
             整體架構著重於可延展性與實務部署彈性，能依需求擴充至 LINE 推播、LINE Pay 或 MINI App 生態，同時維持低成本與易維護的前後端分離設計。
